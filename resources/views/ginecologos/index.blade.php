@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Serenity - Modern bootstrap website template</title>
+    <title>Colegio de Ginecología y Obstetricia de Celaya, A.C.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -49,56 +49,48 @@
                     <nav>
                         <ul class="nav topnav">
                             <li class="dropdown active">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">Inicio</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Features</a>
+                                <a href="#">Nosotros</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="overview.html">Overview</a></li>
-                                    <li><a href="scaffolding.html">Scaffolding</a></li>
-                                    <li><a href="base-css.html">Base CSS</a></li>
-                                    <li><a href="components.html">Components</a></li>
-                                    <li><a href="javascript.html">Javascripts</a></li>
-                                    <li><a href="icons.html">More icons</a></li>
-                                    <li class="dropdown"><a href="#">3rd level</a>
-                                        <ul class="dropdown-menu sub-menu">
-                                            <li><a href="#">Example menu</a></li>
-                                            <li><a href="#">Example menu</a></li>
-                                            <li><a href="#">Example menu</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="overview.html">Presentación</a></li>
+                                    <li><a href="scaffolding.html">Mesa Diretiva</a></li>
+                                    <li><a href="base-css.html">Reglamento</a></li>
+                                    <li><a href="components.html">Historia</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Pages</a>
+                                <a href="#">Eventos</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="pricingtable.html">Pricing table</a></li>
-                                    <li><a href="fullwidth.html">Fullwidth</a></li>
-                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="about.html">Entrada al Evento</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Portfolio</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
-                                    <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
-                                    <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
-                                    <li><a href="portfolio-detail.html">Portfolio detail</a></li>
-                                </ul>
+                                <a href="#">Cobertura de Eventos Pasados</a>
+
                             </li>
                             <li class="dropdown">
-                                <a href="#">Blog</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog_left_sidebar.html">Blog left sidebar</a></li>
-                                    <li><a href="blog_right_sidebar.html">Blog right sidebar</a></li>
-                                    <li><a href="post_left_sidebar.html">Post left sidebar</a></li>
-                                    <li><a href="post_right_sidebar.html">Post right sidebar</a></li>
-                                </ul>
+                                <a href="#">Miembros Afiliados</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.html">Acción Social</a>
                             </li>
+
+                            <li class="dropdown">
+                                <a href="#">Afiliate</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="overview.html">Beneficios</a></li>
+                                    <li><a href="scaffolding.html">Requisitos</a></li>
+                                    <li><a href="base-css.html">Pago</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">Login</a>
+                            </li>
+
+
                         </ul>
                     </nav>
                 </div>
@@ -128,15 +120,15 @@
                                 <!-- Layer 1 -->
                                 <li>
                                     <div class="info animate-in">
-                                        <h2>Bootstrap based</h2>
+                                        <h2 align="center">Colegio de Ginecología<br> y Obstetricia de<br> Celaya, A.C.</h2>
                                         <br>
-                                        <h3>Corporate business</h3>
+
                                         <p>
                                             Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
                                         </p>
                                         <a class="btn btn-success" href="#">Learn more &raquo;</a>
                                     </div>
-                                    <img class="slider_img animate-in" src="{{ asset('assets/img/slides/sequence/img-1.png') }}" alt="">
+                                    <img class="slider_img animate-in" src="{{ asset('assets/img/slides/sequence/banner-ginecologos2.jpeg') }}" alt="">
                                 </li>
                                 <!-- Layer 2 -->
                                 <li>
@@ -149,7 +141,7 @@
                                         </p>
                                         <a class="btn btn-success" href="#">Learn more &raquo;</a>
                                     </div>
-                                    <img class="slider_img" src="{{ asset('assets/img/slides/sequence/img-2.png') }}" alt="">
+                                    <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos.jpeg') }}" alt="">
                                 </li>
                                 <!-- Layer 3 -->
                                 <li>
@@ -162,7 +154,21 @@
                                         </p>
                                         <a class="btn btn-success" href="#">Learn more &raquo;</a>
                                     </div>
-                                    <img class="slider_img" src="{{ asset('assets/img/slides/sequence/img-3.png') }}" alt="">
+                                    <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos1.jpeg') }}" alt="">
+                                </li>
+
+                                <!-- Layer 4 -->
+                                <li>
+                                    <div class="info">
+                                        <h2>Smart and fresh</h2>
+                                        <br>
+                                        <h3>Rich of features</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                                        </p>
+                                        <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                                    </div>
+                                    <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos3.jpeg') }}" alt="">
                                 </li>
                             </ul>
                         </div>
