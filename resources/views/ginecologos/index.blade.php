@@ -67,11 +67,11 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Cobertura de Eventos Pasados</a>
+                                <a href="#">Blog</a>
 
                             </li>
                             <li class="dropdown">
-                                <a href="#">Miembros Afiliados</a>
+                                <a href="#">Contacto</a>
                             </li>
                             <li>
                                 <a href="contact.html">Acción Social</a>
@@ -120,11 +120,11 @@
                                 <!-- Layer 1 -->
                                 <li>
                                     <div class="info animate-in">
-                                        <h2 align="center">Colegio de Ginecología<br> y Obstetricia de<br> Celaya, A.C.</h2>
+                                        <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                                         <br>
-
+                                        <h3>#JuntosSomosMejores</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                                            Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                         </p>
                                         <a class="btn btn-success" href="#">Learn more &raquo;</a>
                                     </div>
@@ -133,9 +133,9 @@
                                 <!-- Layer 2 -->
                                 <li>
                                     <div class="info">
-                                        <h2>Smart and fresh</h2>
+                                        <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                                         <br>
-                                        <h3>Rich of features</h3>
+                                        <h3>#JuntosSomosMejores</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
                                         </p>
