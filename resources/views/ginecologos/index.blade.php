@@ -126,7 +126,7 @@
                                         <p>
                                             Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                         </p>
-                                        <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                                        <a class="btn btn-success" href="#">Únete al Colegio</a>
                                     </div>
                                     <img class="slider_img animate-in" src="{{ asset('assets/img/slides/sequence/banner-ginecologos2.jpeg') }}" alt="">
                                 </li>
@@ -137,22 +137,22 @@
                                         <br>
                                         <h3>#JuntosSomosMejores</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                                            Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                         </p>
-                                        <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                                        <a class="btn btn-success" href="#">Únete al Colegio</a>
                                     </div>
                                     <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos.jpeg') }}" alt="">
                                 </li>
                                 <!-- Layer 3 -->
                                 <li>
                                     <div class="info">
-                                        <h2>Far from ugly</h2>
+                                        <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                                         <br>
-                                        <h3>Latest technology</h3>
+                                        <h3>#JuntosSomosMejores</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                                            Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                         </p>
-                                        <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                                        <a class="btn btn-success" href="#">Únete al Colegio</a>
                                     </div>
                                     <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos1.jpeg') }}" alt="">
                                 </li>
@@ -160,13 +160,13 @@
                                 <!-- Layer 4 -->
                                 <li>
                                     <div class="info">
-                                        <h2>Smart and fresh</h2>
+                                        <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                                         <br>
-                                        <h3>Rich of features</h3>
+                                        <h3>#JuntosSomosMejores</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                                            Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                         </p>
-                                        <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                                        <a class="btn btn-success" href="#">Únete al Colegio</a>
                                     </div>
                                     <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos3.jpeg') }}" alt="">
                                 </li>
@@ -183,44 +183,44 @@
     <div class="container">
         <div class="row">
             <div class="span3 features">
-                <i class="icon-circled icon-32 icon-suitcase left active"></i>
-                <h4>Responsive bootstrap</h4>
+                <i class="icon-circled icon-32 icon-comments-alt left active"></i>
+                <h4>Mesa Directiva</h4>
                 <div class="dotted_line">
                 </div>
                 <p class="left">
-                    Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+                    Nuestra Mesa Directiva 2020-2021 tiene múltiples objetivos, tales como:
                 </p>
-                <a href="#">Learn more</a>
+                <a href="#">Ver más</a>
             </div>
             <div class="span3 features">
                 <i class="icon-circled icon-32 icon-plane left"></i>
-                <h4>Lot of features</h4>
+                <h4>Reglamento</h4>
                 <div class="dotted_line">
                 </div>
                 <p class="left">
-                    Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+                    Pendiente info
                 </p>
-                <a href="#">Learn more</a>
+                <a href="#">Ver más</a>
             </div>
             <div class="span3 features">
                 <i class="icon-circled icon-32 icon-leaf left"></i>
-                <h4>Multipurpose template</h4>
+                <h4>Beneficios y documentación</h4>
                 <div class="dotted_line">
                 </div>
                 <p class="left">
-                    Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+                    Conoce los beneficios de formar parte de nuestro Colegio, así como la documentación necesaria para integrarte.
                 </p>
-                <a href="#">Learn more</a>
+                <a href="#">Ver más</a>
             </div>
             <div class="span3 features">
                 <i class="icon-circled icon-32 icon-wrench left"></i>
-                <h4>With latest technology</h4>
+                <h4>Acción Social</h4>
                 <div class="dotted_line">
                 </div>
                 <p class="left">
-                    Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+                    Conoce nuestras acciones sociales en pro de la Sociedad
                 </p>
-                <a href="#">Learn more</a>
+                <a href="#">Ver más</a>
             </div>
         </div>
         <div class="row">
@@ -229,16 +229,13 @@
                     <div class="row">
                         <div class="span12">
                             <div class="tagline_text">
-                                <h2>Don't miss this special offer for limited time only!</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, vix ceteros noluisse intellegat ne, ex nec insolens liberavisse, no adhuc causae nominati duo.
-                                </p>
+                                <h2>No te pierdas ningún evento del Colegio de Ginecología <br> y Obstetricia de Celaya, A.C.</h2>
+
                             </div>
                             <div class="btn-toolbar cta">
                                 <a class="btn btn-large btn-color" href="#">
-                                    <i class="icon-plane icon-white"></i> Try free version </a>
-                                <a class="btn btn-large btn-inverse" href="#">
-                                    <i class="icon-shopping-cart icon-white"></i> Buy license </a>
+                                    <i class="icon-plane icon-white"></i> Próximos Eventos </a>
+
                             </div>
                         </div>
                     </div>
@@ -249,109 +246,25 @@
         <div class="row">
             <div class="home-posts">
                 <div class="span12">
-                    <h3>Recent blog posts</h3>
+                    <h3>Entradas al Blog</h3>
                 </div>
-                <div class="span3">
-                    <div class="post-image">
-                        <a href="post_right_sidebar.html">
-                            <img src="{{asset('assets/img/dummies/blog1.jpg')}}" alt="">
-                        </a>
+                aquii
+                <div class="col-sm-6">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <iframe class="post-video" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&show_text=true&width=552&height=292&appId" width="100%" height="315" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="entry-meta">
-                        <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
-                        <span class="date">Sep 17 <br>
-					2013</span>
-                    </div>
-                    <!-- end .entry-meta -->
-                    <div class="entry-body">
-                        <a href="post_right_sidebar.html">
-                            <h5 class="title">This is a standard post</h5>
-                        </a>
-                        <p>
-                            Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.
-                        </p>
-                    </div>
-                    <!-- end .entry-body -->
-                    <div class="clear">
+
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <iframe class="post-video" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&show_text=true&width=552&height=292&appId" width="100%" height="315" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
-                <div class="span3">
-                    <div class="post-image">
-                        <a href="#"><img src="{{ asset('assets/img/dummies/blog2.jpg') }}" alt=""></a>
-                    </div>
-                    <div class="entry-meta">
-                        <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
-                        <span class="date">Sep 17 2013</span>
-                    </div>
-                    <!-- end .entry-meta -->
-                    <div class="entry-body">
-                        <a href="post_right_sidebar.html">
-                            <h5 class="title">Example post image format</h5>
-                        </a>
-                        <p>
-                            Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.
-                        </p>
-                    </div>
-                    <!-- end .entry-body -->
-                    <div class="clear">
-                    </div>
-                </div>
-                <div class="span3">
-                    <div class="post-image">
-                        <a href="#"><img src="{{ asset('assets/img/dummies/blog2.jpg') }}" alt=""></a>
-                    </div>
-                    <div class="entry-meta">
-                        <a href="#"><i class="icon-square icon-48 icon-facetime-video left"></i></a>
-                        <span class="date">Sep 17 2011</span>
-                    </div>
-                    <!-- end .entry-meta -->
-                    <div class="entry-body">
-                        <a href="post_right_sidebar.html">
-                            <h5 class="title">Amazing video post format</h5>
-                        </a>
-                        <p>
-                            Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-                        </p>
-                    </div>
-                    <!-- end .entry-body -->
-                    <div class="clear">
-                    </div>
-                </div>
-                <div class="span3">
-                    <div class="post-slider">
-                        <!-- start flexslider -->
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li>
-                                    <a href="post_right_sidebar.html"><img src="{{ asset('assets/img/dummies/work1.jpg') }}" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href="post_right_sidebar.html"><img src="{{ asset('assets/img/dummies/work2.jpg') }}" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href="post_right_sidebar.html"><img src="{{ asset('assets/img/dummies/work3.jpg') }}" alt=""></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- end flexslider -->
-                    </div>
-                    <div class="entry-meta">
-                        <a href="#"><i class="icon-square icon-48 icon-picture left"></i></a>
-                        <span class="date">Sep 17 2011</span>
-                    </div>
-                    <!-- end .entry-meta -->
-                    <div class="entry-body">
-                        <a href="post_right_sidebar.html">
-                            <h5 class="title">Slider post format with flexslider</h5>
-                        </a>
-                        <p>
-                            Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
-                        </p>
-                    </div>
-                    <!-- end .entry-body -->
-                </div>
+
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">.col-xs-6</div>
+        <div class="col-xs-6">.col-xs-6</div>
     </div>
 </section>
 <!-- Footer
@@ -363,17 +276,19 @@
                 <div class="widget">
                     <h5>Browse pages</h5>
                     <ul class="regular">
-                        <li><a href="#">Work for us</a></li>
-                        <li><a href="#">Creative process</a></li>
-                        <li><a href="#">Case study</a></li>
-                        <li><a href="#">Scaffold awwards</a></li>
-                        <li><a href="#">Meet the team</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Acción Social</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                        <li><a href="#">Login</a></li>
                     </ul>
                 </div>
             </div>
             <div class="span4">
                 <div class="widget">
-                    <h5>Recent blog posts</h5>
+                    <h5>Entradas al Blog</h5>
                     <ul class="regular">
                         <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                         <li><a href="#">Mea malis nominavi insolens ut</a></li>
