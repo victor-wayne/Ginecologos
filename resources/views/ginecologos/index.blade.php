@@ -248,25 +248,24 @@
                 <div class="span12">
                     <h3>Entradas al Blog</h3>
                 </div>
-                aquii
-                <div class="col-sm-6">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <iframe class="post-video" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&show_text=true&width=552&height=292&appId" width="100%" height="315" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <iframe class="post-video" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&show_text=true&width=552&height=292&appId" width="100%" height="315" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                </div>
-
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930" class="fb-xfbml-parse-ignore"><p>🥰😍</p>Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930">Lunes, 27 de julio de 2020</a></blockquote></div>
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930" class="fb-xfbml-parse-ignore"><p>🥰😍</p>Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930">Lunes, 27 de julio de 2020</a></blockquote></div>
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334">Miércoles, 8 de julio de 2020</a></blockquote></div>
+                <hr>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fvictorwatsdj.riverahernandez%2Fposts%2F10223399363118140&show_text=false&width=552&height=497&appId" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" data-show-text="true" data-width="100px"><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334">Miércoles, 8 de julio de 2020</a></blockquote></div>
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" data-show-text="true" data-width="100px"><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334">Miércoles, 8 de julio de 2020</a></blockquote></div>
+                <div class="fb-post" data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" data-show-text="false" data-width="100px"><blockquote cite="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/victorwatsdj.riverahernandez">Victor Enterprice</a> en&nbsp;<a href="https://developers.facebook.com/victorwatsdj.riverahernandez/posts/10223466532557334">Miércoles, 8 de julio de 2020</a></blockquote></div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-6">.col-xs-6</div>
-        <div class="col-xs-6">.col-xs-6</div>
-    </div>
+
 </section>
+
+
+
+
 <!-- Footer
 ================================================== -->
 <footer class="footer">
@@ -352,6 +351,8 @@
 <script src="{{ asset('assets/js/jquery.flexslider.js') }}"></script>
 <script src="{{ asset('assets/js/hover/jquery-hover-effect.js') }}"></script>
 <script src="{{ asset('assets/js/hover/setting.js') }}"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
 
 <!-- Template Custom JavaScript File -->
 <script src="{{ asset('assets/js/custom.js') }}"></script>
