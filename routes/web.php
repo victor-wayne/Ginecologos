@@ -17,3 +17,8 @@ Route::get('/', [
     'as' => 'home',
     'uses' => 'GinecologosController@index'
 ]);
+
+Route::get('/nosotros', [
+    'as' => 'nosotros',
+    'uses' => 'GinecologosController@nosotros'
+]);
