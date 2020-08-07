@@ -20,7 +20,7 @@
         <link href="{{ asset('assets/color/default.css') }}" rel="stylesheet">
 
         <!-- fav and touch icons -->
-        <link rel="shortcut icon" href="{{ asset('assets/ico/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ asset('assets/ico/favicon.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('assets/ico/apple-touch-icon-144-precomposed.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('assets/ico/apple-touch-icon-114-precomposed.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('assets/ico/apple-touch-icon-72-precomposed.png') }}">
@@ -42,7 +42,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="index.html"><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
+                        <a class="brand logo" href="index.html"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -119,11 +119,13 @@
                         <div class="widget">
                             <h5>Browse pages</h5>
                             <ul class="regular">
-                                <li><a href="#">Work for us</a></li>
-                                <li><a href="#">Creative process</a></li>
-                                <li><a href="#">Case study</a></li>
-                                <li><a href="#">Scaffold awwards</a></li>
-                                <li><a href="#">Meet the team</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Eventos</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Acción Social</a></li>
+                                <li><a href="#">Afiliate</a></li>
+                                <li><a href="#">Login</a></li>
                             </ul>
                         </div>
                     </div>
@@ -193,6 +195,9 @@
         <script src="{{ asset('assets/js/jquery.flexslider.js') }}"></script>
         <script src="{{ asset('assets/js/hover/jquery-hover-effect.js') }}"></script>
         <script src="{{ asset('assets/js/hover/setting.js') }}"></script>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
+
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
 

@@ -2,7 +2,7 @@
 @section('title','Ginecologos')
 @section('seccion1')
 <section id="intro">
-<div class="jumbotron masthead">
+ <div class="jumbotron masthead">
    <div class="container">
       <!-- slider navigation -->
       <div class="sequence-nav">
@@ -28,7 +28,7 @@
                            <p>
                               Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
-                           <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                           <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
                         <img class="slider_img animate-in" src="{{ asset('assets/img/slides/sequence/banner-ginecologos2.jpeg') }}" alt="">
                      </li>
@@ -39,35 +39,36 @@
                            <br>
                            <h3>#JuntosSomosMejores</h3>
                            <p>
-                              Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
-                           <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                           <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
                         <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos.jpeg') }}" alt="">
                      </li>
                      <!-- Layer 3 -->
                      <li>
                         <div class="info">
-                           <h2>Far from ugly</h2>
+                           <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>Latest technology</h3>
+                           <h3>#JuntosSomosMejores</h3>
                            <p>
-                              Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
-                           <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                           <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
                         <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos1.jpeg') }}" alt="">
                      </li>
+
                      <!-- Layer 4 -->
                      <li>
                         <div class="info">
-                           <h2>Smart and fresh</h2>
+                           <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>Rich of features</h3>
+                           <h3>#JuntosSomosMejores</h3>
                            <p>
-                              Lorem ipsum dolor sit amet, munere commodo ut nam, quod volutpat in per. At nec case iriure, consul recteque nec et.
+                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
-                           <a class="btn btn-success" href="#">Learn more &raquo;</a>
+                           <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
                         <img class="slider_img" src="{{ asset('assets/img/slides/sequence/banner-ginecologos3.jpeg') }}" alt="">
                      </li>
@@ -77,6 +78,106 @@
          </div>
       </div>
    </div>
-</div>
-</seccion>
+ </div>
+</section>
+
+<section id="maincontent">
+   <div class="container">
+      <div class="row">
+         <div class="span3 features">
+            <i class="icon-circled icon-32 icon-group left active"></i>
+            <h4>Mesa Directiva</h4>
+            <div class="dotted_line">
+            </div>
+            <p class="left">
+               Nuestra Mesa Directiva 2020-2021 tiene múltiples objetivos, tales como:
+            </p>
+            <a href="#">Ver más</a>
+         </div>
+         <div class="span3 features">
+            <i class="icon-circled icon-32 icon-book left"></i>
+            <h4>Reglamento</h4>
+            <div class="dotted_line">
+            </div>
+            <p class="left">
+               Pendiente info
+            </p>
+            <a href="#">Ver más</a>
+         </div>
+         <div class="span3 features">
+            <i class="icon-circled icon-32 icon-check left"></i>
+            <h4>Beneficios y documentación</h4>
+            <div class="dotted_line">
+            </div>
+            <p class="left">
+               Conoce los beneficios de formar parte de nuestro Colegio, así como la documentación necesaria para integrarte.
+            </p>
+            <a href="#">Ver más</a>
+         </div>
+         <div class="span3 features">
+            <i class="icon-circled icon-32 icon-heart left"></i>
+            <h4>Acción Social</h4>
+            <div class="dotted_line">
+            </div>
+            <p class="left">
+               Conoce nuestras acciones sociales en pro de la Sociedad
+            </p>
+            <a href="#">Ver más</a>
+         </div>
+      </div>
+      <div class="row">
+         <div class="span12">
+            <div class="tagline centered">
+               <div class="row">
+                  <div class="span12">
+                     <div class="tagline_text">
+                        <h2>No te pierdas ningún evento del Colegio de Ginecología <br> y Obstetricia de Celaya, A.C.</h2>
+
+                     </div>
+                     <div class="btn-toolbar cta">
+                        <a class="btn btn-large btn-color" href="#">
+                           <i class="icon-plane icon-white"></i> Próximos Eventos </a>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end tagline -->
+         </div>
+      </div>
+      <div class="row">
+         <div class="home-posts">
+            <div class="span12">
+               <h3>Entradas al Blog</h3>
+            </div>
+
+            <div
+                    class="fb-post"
+                    data-width="500"
+                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930">
+            </div>
+            <div
+                    class="fb-post"
+                    data-width="500"
+                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223738739482337">
+            </div>
+            <div
+                    class="fb-post"
+                    data-width="500"
+                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223532411724272">
+            </div>
+
+
+
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+
+
+
+
 @endsection
