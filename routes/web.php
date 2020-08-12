@@ -27,3 +27,7 @@ Route::get('/contacto', [
     'as' => 'contacto',
     'uses' => 'GinecologosController@contacto'
 ]);
+Route::get('/afiliate', [
+    'as' => 'afiliate',
+    'uses' => 'GinecologosController@afiliacion'
+]);

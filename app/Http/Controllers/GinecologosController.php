@@ -16,9 +16,9 @@ class GinecologosController extends Controller
         return view('ginecologos.nosotros');
     }
 
-    public function contacto(){
+    public function afiliacion(){
 
-        return view('ginecologos.contacto');
+        return view('ginecologos.afiliacion');
     }
 
 }
