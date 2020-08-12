@@ -71,7 +71,7 @@
 
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Contacto</a>
+                                        <a href="{{ route('contacto') }}">Contacto</a>
                                     </li>
                                     <li>
                                         <a href="contact.html">Acción Social</a>
@@ -106,6 +106,10 @@
 
         <div id="seccion2">
             @yield('seccion2')
+        </div>
+
+        <div id="seccion3">
+            @yield('seccion3')
         </div>
         
         
