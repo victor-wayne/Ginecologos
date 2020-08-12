@@ -21,4 +21,9 @@ class GinecologosController extends Controller
         return view('ginecologos.afiliacion');
     }
 
+    public function contacto(){
+
+        return view('ginecologos.contacto');
+    }
+
 }
