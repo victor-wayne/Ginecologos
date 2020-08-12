@@ -123,7 +123,7 @@
             <div class="accordion-group">
               <div class="accordion-heading">
                 <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-						<i class="icon-minus"></i> Historia</a>
+						    <i class="icon-minus"></i> Historia</a>
               </div>
               <div id="collapseOne" class="accordion-body collapse in">
                 <div class="accordion-inner">

@@ -22,3 +22,8 @@ Route::get('/nosotros', [
     'as' => 'nosotros',
     'uses' => 'GinecologosController@nosotros'
 ]);
+
+Route::get('/afiliate', [
+    'as' => 'afiliate',
+    'uses' => 'GinecologosController@afiliacion'
+]);

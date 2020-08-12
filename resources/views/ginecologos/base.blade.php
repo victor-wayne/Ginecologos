@@ -42,7 +42,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="index.html"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
+                        <a class="brand logo" href="{{url('/')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -77,13 +77,13 @@
                                         <a href="contact.html">Acción Social</a>
                                     </li>
 
-                                    <li class="dropdown">
-                                        <a href="#">Afiliate</a>
-                                        <ul class="dropdown-menu">
+                                    <li class="{{Request::is('afiliate') ? 'active':''}}">
+                                        <a href="{{url('afiliate')}}">Afiliate</a>
+                                        <!--<ul class="dropdown-menu">
                                             <li><a href="overview.html">Beneficios</a></li>
                                             <li><a href="scaffolding.html">Requisitos</a></li>
                                             <li><a href="base-css.html">Pago</a></li>
-                                        </ul>
+                                        </ul>-->
                                     </li>
 
                                     <li>
