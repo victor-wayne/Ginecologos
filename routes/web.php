@@ -31,3 +31,7 @@ Route::get('/afiliate', [
     'as' => 'afiliate',
     'uses' => 'GinecologosController@afiliacion'
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

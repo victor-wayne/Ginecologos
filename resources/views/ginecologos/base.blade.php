@@ -60,25 +60,24 @@
                                             <li><a href="components.html">Historia</a></li>
                                         </ul>-->
                                     </li>
-                                    <li class="dropdown">
+                                    <li>
                                         <a href="#">Eventos</a>
-                                        <ul class="dropdown-menu">
+                                        <!--<ul class="dropdown-menu">
                                             <li><a href="about.html">Entrada al Evento</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Blog</a>
-
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="{{ route('contacto') }}">Contacto</a>
+                                        </ul>-->
                                     </li>
                                     <li>
-                                        <a href="contact.html">Acción Social</a>
+                                        <a href="#">Blog</a>
                                     </li>
+                                    <li class="{{Request::is('contacto') ? 'active':''}}">
+                                        <a href="{{ route('contacto') }}">Contacto</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="contact.html">Acción Social</a>
+                                    </li>-->
 
                                     <li class="{{Request::is('afiliate') ? 'active':''}}">
-                                        <a href="{{url('afiliate')}}">Afiliate</a>
+                                        <a href="{{url('afiliate')}}">Suscripción</a>
                                         <!--<ul class="dropdown-menu">
                                             <li><a href="overview.html">Beneficios</a></li>
                                             <li><a href="scaffolding.html">Requisitos</a></li>
@@ -86,8 +85,8 @@
                                         </ul>-->
                                     </li>
 
-                                    <li>
-                                        <a href="contact.html">Login</a>
+                                    <li class="{{Request::is('login') ? 'active':''}}">
+                                        <a href="{{url('login')}}">Login</a>
                                     </li>
 
 
