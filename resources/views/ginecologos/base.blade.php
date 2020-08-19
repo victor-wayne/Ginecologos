@@ -67,7 +67,7 @@
                                         </ul>-->
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a href="{{ route('blog') }}">Blog</a>
                                     </li>
                                     <li class="{{Request::is('contacto') ? 'active':''}}">
                                         <a href="{{ route('contacto') }}">Contacto</a>
