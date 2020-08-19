@@ -151,21 +151,12 @@
                <h3>Entradas al Blog</h3>
             </div>
 
-            <div
-                    class="fb-post"
-                    data-width="500"
-                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223640960757930">
-            </div>
-            <div
-                    class="fb-post"
-                    data-width="500"
-                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223738739482337">
-            </div>
-            <div
-                    class="fb-post"
-                    data-width="500"
-                    data-href="https://www.facebook.com/victorwatsdj.riverahernandez/posts/10223532411724272">
-            </div>
+            <div class="fb-post" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/180786256992128"></div>
+            <div class="fb-post" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906"></div>
+
+
+
+
 
 
 
