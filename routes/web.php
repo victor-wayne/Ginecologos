@@ -36,4 +36,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/suscriptor', 'Suscriptor\SuscriptorController@index')->name('suscriptor');
+
+Route::group(['middleware' => ['auth','role:administrador']], function () {
+    Route::get('/admin','Administrador\AdministradorController@index')->name('administrador');    
+});
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/suscriptor','Suscriptor\SuscriptorController@index')->name('suscriptor');    
+});
