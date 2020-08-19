@@ -85,8 +85,8 @@
                                         </ul>-->
                                     </li>
 
-                                    <li class="{{Request::is('login') ? 'active':''}}">
-                                        <a href="{{url('login')}}">Login</a>
+                                    <li class="{{Request::is('logout') ? 'active':''}}">
+                                        <a href="{{url('login')}}">Salir</a>
                                     </li>
 
 

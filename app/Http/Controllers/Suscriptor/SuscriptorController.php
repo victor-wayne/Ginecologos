@@ -1,10 +1,10 @@
 <?php
-/**Esta Controlador, va a determinar si es administrador o suscriptor**/
+/**Esta Controlador, es la pantalla que veran los usuarios logeados**/
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class SuscriptorController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,6 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('suscriptor.index');
     }
 }

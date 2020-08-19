@@ -62,14 +62,9 @@
                             </div>
                             <!-- end flexslider -->
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ultricies 
-                                libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer 
-                                fringilla, ipsum placerat ultrices elementum, felis nisi finibus urna, vitae 
-                                ultrices tellus sapien vitae massa. Suspendisse cursus luctus felis, in condimentum
-                                 tortor laoreet quis. Ut posuere vitae ligula vel venenatis. Vestibulum a tortor 
-                                 eget purus hendrerit luctus. Ut sed quam sit amet ligula imperdiet consequat. 
-                                 Duis est lorem, mattis at enim gravida, congue dapibus elit. Nam et venenatis 
-                                 lorem. Donec facilisis condimentum imperdiet. 
+                                <span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span>
+                                <br>Desde el año 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad. 
+                                <br><strong><a href="#">#JuntosSomosMejores</a></strong>
                             </p>                        
                         </div>
                         <div class="span4">

@@ -13,7 +13,7 @@ class GinecologosController extends Controller
 
     public function nosotros(){
 
-        return view('ginecologos.nosotros');
+        return view('ginecologos.nosotros2');
     }
 
     public function afiliacion(){

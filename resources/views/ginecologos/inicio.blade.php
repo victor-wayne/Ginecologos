@@ -22,11 +22,11 @@
                      <!-- Layer 1 -->
                      <li>
                         <div class="info animate-in">
-                           <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
+                           <h2 style="text-transform: capitalize;">Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>#JuntosSomosMejores</h3>
+                           <h3 style="text-transform: capitalize;">#JuntosSomosMejores</h3>
                            <p>
-                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
+                              Desde 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
                            <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
@@ -35,11 +35,11 @@
                      <!-- Layer 2 -->
                      <li>
                         <div class="info">
-                           <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
+                           <h2 style="text-transform: capitalize;">Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>#JuntosSomosMejores</h3>
+                           <h3 style="text-transform: capitalize;">#JuntosSomosMejores</h3>
                            <p>
-                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
+                              Desde 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
                            <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
@@ -48,11 +48,11 @@
                      <!-- Layer 3 -->
                      <li>
                         <div class="info">
-                           <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
+                           <h2 style="text-transform: capitalize;">Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>#JuntosSomosMejores</h3>
+                           <h3 style="text-transform: capitalize;">#JuntosSomosMejores</h3>
                            <p>
-                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
+                              Desde 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
                            <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
@@ -136,7 +136,7 @@
                      </div>
                      <div class="btn-toolbar cta">
                         <a class="btn btn-large btn-color" href="#">
-                           <i class="icon-plane icon-white"></i> Próximos Eventos </a>
+                           <i class="icon-calendar icon-white"></i> Próximos Eventos </a>
 
                      </div>
                   </div>

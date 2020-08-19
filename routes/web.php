@@ -35,3 +35,5 @@ Route::get('/afiliate', [
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/suscriptor', 'Suscriptor\SuscriptorController@index')->name('suscriptor');
