@@ -1,28 +1,27 @@
 <?php
-/**Esta Controlador, es la pantalla que veran los usuarios logeados**/
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Suscriptor;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Curso;
 
 class SuscriptorController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
+    //
+    public function index(Request $request){
+        $cursos = Curso::all();
+        return view('suscriptor.index',['cursos'=> $cursos]);        
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function index()
-    {
-        return view('suscriptor.index');
+    public function curso(Request $request, $id){
+                
+        $curso = Curso::with('temas')->find($id);
+
+        if(!isset($curso))
+            die('Not found');
+
+        
+
+        return view('suscriptor.curso',['curso'=>$curso]);
     }
 }

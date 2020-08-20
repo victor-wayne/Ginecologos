@@ -25,6 +25,9 @@ class DatabaseSeeder extends Seeder
         );
 
         User::insert($data);
+        $this->call(RoleTableSeeder::class);
+        $this->call(CursoTableSeeder::class);
+        $this->call(TemaCursosTableSeeder::class);
 
     }
 }

@@ -21,8 +21,14 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('home');
+        $isAdministrador = $request->user()->hasRole('administrador');
+
+        if($isAdministrador){
+            return redirect('admin');
+        }else{
+            return redirect('suscriptor');   
+        }
     }
 }

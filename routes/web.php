@@ -48,4 +48,5 @@ Route::group(['middleware' => ['auth','role:administrador']], function () {
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/suscriptor','Suscriptor\SuscriptorController@index')->name('suscriptor');    
+    Route::get('/suscriptor/curso/{id}', 'Suscriptor\SuscriptorController@curso');
 });
