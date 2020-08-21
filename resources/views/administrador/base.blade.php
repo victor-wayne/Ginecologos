@@ -26,11 +26,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('assets/ico/apple-touch-icon-72-precomposed.png') }}">
         <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}">
 
-
-        <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-        <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-
         <!-- =======================================================
         Theme Name: Serenity
         Theme URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
@@ -47,7 +42,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="{{url('/suscriptor')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
+                        <a class="brand logo" href="{{url('admin')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -60,7 +55,7 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="#"><i class="icon-cog"></i>Ajustes</a>
+                                                <a href="scaffolding.html"><i class="icon-cog"></i>Ajustes</a>
                                             </li>
                                             
                                             <li>
@@ -182,6 +177,6 @@
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
-<script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+
     </body>
 </html>

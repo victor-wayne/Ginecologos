@@ -122,7 +122,7 @@ hr.soften {
 .mini-layout,
 .mini-layout .mini-layout-body,
 .mini-layout.fluid .mini-layout-sidebar {
-  height: 300px;
+  height: 400px;
 }
 .mini-layout {
   margin-bottom: 20px;
