@@ -77,7 +77,7 @@
             </div>
         </header>
 
-        <div id="seccion1">
+        <div id="seccion1">            
             @yield('seccion1')
         </div>
 
@@ -89,6 +89,21 @@
             @yield('seccion3')
         </div>
                 
+        <!-- === Modal ==== -->
+
+        <div id="modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="modalLabel">@yield('modal-title')</h3>
+            </div>
+            <div class="modal-body">
+                @yield('modal-content')
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" onclick="cleanModal();" aria-hidden="true">Cancelar</button>              
+            </div>
+        </div>
+
         <!-- Footer
 ================================================== -->
         <footer class="footer">
@@ -177,6 +192,7 @@
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
+        <script src="{{ asset('assets/js/modalLoading.js') }}"></script>
 
     </body>
 </html>

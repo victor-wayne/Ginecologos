@@ -43,7 +43,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::group(['middleware' => ['auth','role:administrador']], function () {
-    Route::get('/admin','Administrador\AdministradorController@index')->name('administrador');    
+    Route::get('/admin','Administrador\AdministradorController@index')->name('administrador');
+    Route::get('/admin/curso/{id?}', 'Administrador\AdministradorController@curso');    
+    Route::get('/admin/curso/{idcurso}/tema/{idtema?}/form', 'Administrador\AdministradorController@temacursoform')->name('temacursoform');    
+    Route::post('/admin/curso/save', 'Administrador\AdministradorController@save')->name('savecurso');
+    Route::post('/admin/curso/tema/save', 'Administrador\AdministradorController@savetema')->name('savetema');    
 });
 
 Route::group(['middleware' => ['auth']], function () {
