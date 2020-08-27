@@ -1,6 +1,7 @@
 <?php
 
 use App\User;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,22 +13,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $data = array(
-            [
-                'name' => 'Victor',
-                'email'  => 'victoritcelaya@gmail.com',
-                'password' => \Hash::make('WATS_VDJm10$'),
-                'created_at' => new DateTime,
-                'updated_at' => new DateTime
-            ],
+        Model::unguard();
 
-
-        );
-
-        User::insert($data);
+        $this->call(UsuarioSeeder::class);
         $this->call(RoleTableSeeder::class);
         $this->call(CursoTableSeeder::class);
         $this->call(TemaCursosTableSeeder::class);
+
+        Model::reguard();
 
     }
 }
