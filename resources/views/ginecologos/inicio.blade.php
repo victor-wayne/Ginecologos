@@ -64,7 +64,7 @@
                         <div class="info">
                            <h2>Colegio de Ginecología <br>y Obstetricia de Celaya</h2>
                            <br>
-                           <h3>#JuntosSomosMejores</h3>
+                           <h3 style="text-transform: capitalize;">#JuntosSomosMejores</h3>
                            <p>
                               Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
@@ -151,8 +151,19 @@
                <h3>Entradas al Blog</h3>
             </div>
 
-            <div class="fb-post" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/180786256992128"></div>
-            <div class="fb-post" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906"></div>
+            <div
+                    class="fb-post"
+                    data-width="495"
+                    data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/180786256992128">
+            </div>
+
+            <div
+                    class="fb-post"
+                    data-width="495"
+                    data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906">
+            </div>
+
+
 
 
 

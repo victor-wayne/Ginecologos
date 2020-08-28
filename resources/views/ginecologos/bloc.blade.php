@@ -1,4 +1,6 @@
 @extends('ginecologos.base')
+@section('title','Blog')
+@section('seccion2')
 
 <section id="subintro">
     <div class="jumbotron subhead" id="overview">
@@ -39,13 +41,14 @@
                 <div id="fb-root"></div>
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="UFDVkeKD"></script>
 
-                <div class="fb-page" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ColegiodeGinecologiadeCelaya/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/">Colegio de Ginecología y Obstetricia de Celaya A.C.</a></blockquote></div>
+                <div class="fb-page" data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ColegiodeGinecologiadeCelaya/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/">Colegio de Ginecología y Obstetricia de Celaya A.C.</a></blockquote></div>
             </div>
 
 
         </div>
 
 
-
     </div>
 </section>
+
+@endsection

@@ -303,12 +303,7 @@
                         <img src="{{ asset('assets/img/logo-dark.png') }}" alt="">
                     </a>
                     <!-- end logo -->
-                    <address>
-                        <strong>Registered Companyname, Inc.</strong><br>
-                        8895 Somename Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
+
                 </div>
             </div>
         </div>

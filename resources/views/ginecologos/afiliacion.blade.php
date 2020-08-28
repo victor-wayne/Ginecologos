@@ -77,11 +77,7 @@
                                 <li class="text-center">
                                     <a href="#"><img src="assets/img/paypal.png" alt="Pago" width="96px" /></a> 
                                 </li>
-                                <li class="text-justify" style="font-size:10px;">
-                                    <strong>TODOS LOS CURSOS</strong> incluyen una <strong>
-                                    Garantía de devolución de dinero al 100%</strong> durante sus primeros 30 días de servicio. ¡Obtenga su suscripcion ahora!
-                                    <a href="#">Apilca terminos y condiciones </a>
-                                </li>
+
                             </ul>
                             </div>
                         </div>
