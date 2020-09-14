@@ -21,6 +21,14 @@ class UsuarioSeeder extends Seeder
                 'updated_at' => new DateTime
             ],
 
+            [
+                'name' => 'Victor',
+                'email'  => 'victoritcelaya@gmail.com',
+                'password' => \Hash::make('12345'),
+                'created_at' => new DateTime,
+                'updated_at' => new DateTime
+            ],
+
 
         );
 
