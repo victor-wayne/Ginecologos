@@ -45,7 +45,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="{{url('/')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
+                        <a class="brand logo" href="{{url('/')}}"><img src="{{ asset('assets/img/logo-ginecologos.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -148,7 +148,7 @@
                         <div class="widget">
                             <!-- logo -->
                             <a class="brand logo" href="index.html">
-                                <img src="{{ asset('assets/img/logo-dark.png') }}" alt="">
+                                <img src="{{ asset('assets/img/logo-ginecologos.png') }}" alt="">
                             </a>
                             <!-- end logo -->
 
