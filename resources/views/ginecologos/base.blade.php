@@ -121,7 +121,7 @@
                 <div class="row">
                     <div class="span4">
                         <div class="widget">
-                            <h5>Browse pages</h5>
+                            <h5>Browse pages</h5><br>
                             <ul class="regular">
                                 <li><a href="#">Nosotros</a></li>
                                 <li><a href="#">Eventos</a></li>
@@ -135,20 +135,14 @@
                     </div>
                     <div class="span4">
                         <div class="widget">
-                            <h5>Recent blog posts</h5>
-                            <ul class="regular">
-                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                <li><a href="#">Mea malis nominavi insolens ut</a></li>
-                                <li><a href="#">Minim timeam has no aperiri sanctus ei mea per pertinax</a></li>
-                                <li><a href="#">Te malorum dignissim eos quod sensibus</a></li>
-                            </ul>
+
                         </div>
                     </div>
                     <div class="span4">
                         <div class="widget">
                             <!-- logo -->
                             <a class="brand logo" href="index.html">
-                                <img src="{{ asset('assets/img/logo-ginecologos.png') }}" alt="">
+                                <img src="{{ asset('assets/img/logo-ginecologosa.png') }}" alt="">
                             </a>
                             <!-- end logo -->
 
@@ -197,6 +191,127 @@
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+        <script>
+            function mostrarModal(numero) {
+                switch (numero) {
+                    case 1:
+
+                        Swal.fire({
+                            title: '<strong><h2>Mesa Directiva</h2></strong><br>',
+                            width: '50%',
+                            heightAuto: true,
+                            html: '<div class="row">' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image" <br>' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Arturo Durán Guzmán <br> </h4> <h1> Presidente Honorario </h1> </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Emmanuel Castro Almanza <br> </h4> <h1> Presidente </h1> </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Jorge Dueñas Riaño <br> </h4> <h1> Secretrio </h1> </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Eduardo Mariano González Gállego <br> </h4> <h1> Tesorero </h1>  </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Mario Alberto Godinez Guerrero<br>Dr. Luis Israel Arredondo Maldonado<br> Dr. Sergio Cruz Pérez <br> </h4> <h1> Vocales </h1>  </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Claude Alain Paire Serrier<br>Dr. Julio Rafael Velázquez Velasco<br>Dr. Ramón Martín del Campo Maldonado<br></h4> <h1> Comosión de Honor y Justicia </h1> </p>' +
+                                '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "center" ><h4>Dr. Eduardo Rivas Larrauri<br> </h4> <h1> Representante ante la Femecog </h1> </p>',
+                            showCloseButton: true,
+                            showCancelButton: false,
+                            focusConfirm: false,
+                            confirmButtonText: 'Cerrar',
+                        });
+                        break;
+
+                    case 2:
+                        Swal.fire({
+                            title: '<strong><h2>Oncología Urológica</h2></strong>',
+                            width: '90%',
+                            heightAuto: true,
+                            html: '<div class="row">' +
+                                '<div class = "col-md-6 "><i class="icon-circled icon-32 icon-group left active" src="' + "{{asset('assets/img/doctor.png')}}" + '>' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "justify" >Nos enfocamos en el diagnóstico y estudio de tumores en el sistema urinario, este abarca próstata, Riñón, Vejiga tanto de hombres como mujeres y cáncer de testículos.</p>' +
+                                '<ul align="justify"> ' +
+                                '<li><strong>Cáncer de próstata:</strong>Es uno de los más comunes y de las principales causas de' +
+                                ' muerte entre los hombres, la detección oportuna es primordial.</li>' +
+                                ' <li> <strong>Cáncer de vejiga:</strong> Los síntomas de este cáncer incluyen sangrado al orinar, urgencia' +
+                                ' frecuente para orinar, dolor al orinar, dolor en parte baja de la espalda.</li>' +
+                                ' <li> <strong>Cáncer de Riñón:</strong>Es probable que en el inicio de esta enfermedad no se presenten' +
+                                ' síntomas, pero aparecerán mediante la enfermedad evolucione, debes estar atento' +
+                                ' si se presenta Sangre en la orina, bulto en el abdomen, pérdida de peso sin razón,' +
+                                ' dolor en costado que no desaparece, pérdida de apetito.</li>' +
+                                ' <li> <strong>Cáncer testicular:</strong>Es más común en hombres entre los 15 y 40 años, los síntomas' +
+                                ' incluyen inflamación, crecimiento sin dolor y alteraciones en la estructura del testículo.</li>' +
+                                ' </ul> </div ></div > ',
+                            showCloseButton: true,
+                            showCancelButton: false,
+                            focusConfirm: false,
+                            confirmButtonText: 'Cerrar',
+                        });
+                        break;
+                    case 3:
+
+                        Swal.fire({
+                            title: '<strong><h2>Beneficios</h2></strong><br>',
+                            width: '50%',
+                            heightAuto: true,
+                            html: '<div class="row">' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/moneda.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Costos Preferenciales a Congresos </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/kit.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Fortalecimiento de tu ejercicio profesional </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/ordenador-portatil.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Acceso a publicaciones electrónicas  </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/tesis.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Actualización médica continua  </h1> </div> ' +
+                                '</div>',
+                            showCloseButton: true,
+                            showCancelButton: false,
+                            focusConfirm: false,
+                            confirmButtonText: 'Cerrar',
+                        });
+                        break;
+                    case 4:
+                        Swal.fire({
+                            title: '<strong><h2>Cirugía endoscópica de próstata</h2></strong>',
+                            width: '90%',
+                            heightAuto: true,
+                            html: '<div class="row">' +
+                                '<div class = "col-md-6 "><img class="img-responsive" src="' + "{{ asset('img/970x647/endoscopia1.jpeg') }}" + '" width="435px" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<p align = "justify" > Usando la mejor tecnología para brindarte una pronta recuperación. </p>' +
+                                '<ul align="justify">' +
+                                ' <li><strong>Enucleación Prostática con Láser Holmio: </strong>Esta cirugía ayuda a reducir los síntomas' +
+                                ' urinarios por la hiperplasia prostática benigna mediante un láser que corta el exceso' +
+                                ' de tejidos para luego ser extraídos. < /li>' +
+                                ' <li><strong>Resección bipolar prostática: </strong>Técnica quirúrgica mediante energía eléctrica usando' +
+                                ' solución salina con la misma osmolaridad de la sangre disminuyendo las' +
+                                ' complicaciones del agua destilada.</li>' +
+                                '</ul> </div ></div > ',
+                            showCloseButton: true,
+                            showCancelButton: false,
+                            focusConfirm: false,
+                            confirmButtonText: 'Cerrar',
+                        });
+                        break;
+
+                    default:
+                        break;
+                }
+
+            }
+        </script>
+
 
     </body>
 </html>
