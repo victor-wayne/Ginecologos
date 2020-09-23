@@ -62,14 +62,14 @@
                             </div>
                             <!-- end flexslider -->
                             <p>
-                                <span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span>
+                                <span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span><br>
                                 <br>Desde el año 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad. 
                                 <br><strong><a href="#">#JuntosSomosMejores</a></strong>
                             </p>                        
                         </div>
                         <div class="span4">
                             <div class="project-widget">
-                            <h4><i class="icon-circled icon-48 icon-film active"></i><span style="color:#d98880;"><strong>Planes de Suscripcion</strong></span></h4>
+                            <h4><i class="icon-circled icon-48 icon-film active"></i><span style="color:#d98880;"><strong>Planes de Suscripcion</strong></span></h4><br>
                             <ul class="project-detail">
                                 <li><label>Tipo Plan :</label> Premium </li>
                                 <li><label>Beneficios :</label> Acceso a contenido exclusivo</li>
@@ -88,7 +88,7 @@
         
         <div class="row">
             <div class="span12">
-                <h4>Contenido</h4>
+                <h4>Contenido</h4><br>
                 <!-- start: Accordion -->
                 <div class="accordion" id="accordion2">
                     <div class="accordion-group">
