@@ -102,7 +102,7 @@
             <p class="left">
                Pendiente info
             </p>
-            <a href="#">Ver más</a>
+            <a class="link" onclick="mostrarModal(4);">Ver más</a>
          </div>
          <div class="span3 features">
             <i class="icon-circled icon-32 icon-check left"></i>
