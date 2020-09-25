@@ -1051,7 +1051,7 @@ ul.the-icons {
   float: none;
 }
 
-.icon-square, .icon-rounded, .icon-plain, .icon-circled {
+.icon-square, .icon-rounded, .icon-plain, .icon-circled  {
   margin: 10px 10px 10px 0;
   display: inline-block !important;
   text-align: center !important;
@@ -1079,6 +1079,15 @@ ul.the-icons {
   -webkit-border-radius: 10px;
 }
 
+.icon-circledg {
+  background-color: #bc7475;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+
+
 .icon-square {
   background-color: #444;
 }
@@ -1104,7 +1113,19 @@ ul.the-icons {
   -webkit-border-radius: 24px;
 }
 
+.icon-circledg {
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
 .icon-64.icon-circled {
+  border-radius: 32px;
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+}
+
+.icon-64.icon-circledg {
   border-radius: 32px;
   -moz-border-radius: 32px;
   -webkit-border-radius: 32px;

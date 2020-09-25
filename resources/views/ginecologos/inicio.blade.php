@@ -90,13 +90,13 @@
             <div class="dotted_line">
             </div>
             <p class="left">
-               Nuestra Mesa Directiva 2020-2021 tiene múltiples objetivos, tales como:
+                Conoce cómo está conformada nuestra Mesa Directiva 2020-2022
             </p>
-            <a href="#">Ver más</a>
+            <a class="link" onclick="mostrarModal(1);">Ver más</a>
          </div>
          <div class="span3 features">
             <i class="icon-circled icon-32 icon-book left"></i>
-            <h4>Reglamento</h4>
+            <h4>Consentimiento Informado.</h4>
             <div class="dotted_line">
             </div>
             <p class="left">
@@ -106,13 +106,13 @@
          </div>
          <div class="span3 features">
             <i class="icon-circled icon-32 icon-check left"></i>
-            <h4>Beneficios y documentación</h4>
+            <h4>Beneficios</h4>
             <div class="dotted_line">
             </div>
             <p class="left">
-               Conoce los beneficios de formar parte de nuestro Colegio, así como la documentación necesaria para integrarte.
+                Algunos de los beneficios de formar parte del Colegio de Ginecología y Obstetricia de Celaya, A.C. son:
             </p>
-            <a href="#">Ver más</a>
+            <a class="link" onclick="mostrarModal(3);">Ver más</a>
          </div>
          <div class="span3 features">
             <i class="icon-circled icon-32 icon-heart left"></i>
@@ -134,6 +134,7 @@
                         <h2>No te pierdas ningún evento del Colegio de Ginecología <br> y Obstetricia de Celaya, A.C.</h2>
 
                      </div>
+                      <br>
                      <div class="btn-toolbar cta">
                         <a class="btn btn-large btn-color" href="#">
                            <i class="icon-calendar icon-white"></i> Próximos Eventos </a>
@@ -162,6 +163,7 @@
                     data-width="495"
                     data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906">
             </div>
+
 
 
 

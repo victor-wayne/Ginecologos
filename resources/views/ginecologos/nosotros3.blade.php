@@ -56,73 +56,14 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="span12">
-      <div class="divider">
-          <hr>
-      </div>
-    </div>
-</div>
+
+
+
 
 <div class="row">
     <div class="span12">
       <div class="divider">
-          <h4>Filosofia</h4>
-      </div>
-    </div>
-</div>
 
-<div class="row-fluid">
-    <div class="span4 well" style="float:left;">
-        <div class="centered">
-            <i class="icon-circled icon-64 icon-suitcase active"></i>
-            <h4>Mision</h4>
-            <div class="dotted_line">
-            </div>              
-          </div>
-          <div style="height: 220px;">
-            <span style="text-align: left;">
-              Fomentar la educación continua de los médicos Gineco-Obstetras de Celaya, así como promover actividades en favor de la salud de la mujer.
-            </span>              
-        </div>
-    </div>
-
-    <div class="span4 well" style="float:left;">
-        <div class="centered">
-            <i class="icon-circled icon-64 icon-suitcase active"></i>
-            <h4>Mision</h4>
-            <div class="dotted_line">
-            </div>              
-          </div>
-          <div style="height: 220px;">
-            <span style="text-align: left;">
-              Fomentar la educación continua de los médicos Gineco-Obstetras de Celaya, así como promover actividades en favor de la salud de la mujer.
-            </span>              
-        </div>
-    </div>
-
-    <div class="span4 well" style="float:left;">
-        <div class="centered">
-            <i class="icon-circled icon-64 icon-suitcase active"></i>
-            <h4>Mision</h4>
-            <div class="dotted_line">
-            </div>              
-          </div>
-          <div style="height: 220px;">
-            <span style="text-align: left;">
-              Fomentar la educación continua de los médicos Gineco-Obstetras de Celaya, así como promover actividades en favor de la salud de la mujer.
-            </span>              
-        </div>
-    </div>
-
-    
-    
-</div>
-
-<div class="row">
-    <div class="span12">
-      <div class="divider">
-          <hr>
       </div>
     </div>
 </div>

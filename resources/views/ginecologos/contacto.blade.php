@@ -46,7 +46,7 @@
                                 </li>
                                 <li><label><strong>Email : </strong></label>
                                     <p>
-                                        name@yoursite.com
+                                        cgocelaya@gmail.com
                                     </p>
                                 </li>
                                 <li><label><strong>Adress : </strong></label>
@@ -60,10 +60,8 @@
                             <h4>Redes Sociales</h4>
                             <ul class="social-links">
                                 <li><a href="#" title="Twitter"><i class="icon-rounded icon-32 icon-twitter"></i></a></li>
-                                <li><a href="#" title="Facebook"><i class="icon-rounded icon-32 icon-facebook"></i></a></li>
-                                <li><a href="#" title="Google plus"><i class="icon-rounded icon-32 icon-google-plus"></i></a></li>
-                                <li><a href="#" title="Linkedin"><i class="icon-rounded icon-32 icon-linkedin"></i></a></li>
-                                <li><a href="#" title="Pinterest"><i class="icon-rounded icon-32 icon-pinterest"></i></a></li>
+                                <li><a href="https://www.facebook.com/ColegiodeGinecologiadeCelaya " title="Facebook"><i class="icon-rounded icon-32 icon-facebook"></i></a></li>
+
                             </ul>
                         </div>
                     </aside>
