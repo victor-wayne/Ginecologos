@@ -43,7 +43,7 @@
               </div>
               <div class="span4">
                 <div class="project-widget">
-                  <h4><i class="icon-48 icon-group"></i></i><span style="color:#d98880;"><strong>Suscripción</strong></span></h4>
+                  <h4><i class="icon-48 icon-group"></i></i><span style="color:#d98880;"><strong>Suscripción</strong></span></h4><br>
                   <ul class="project-detail">
                     <li><label>Proyecto :</label> Video Cursos Interactivos</li>
                     <li><label>Categoria :</label> Ginecologia</li>
