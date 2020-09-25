@@ -3,7 +3,10 @@
 @section('seccion1')
 <?php //dump($cursos) ?>
 <section id="subintro">
-    <div class="jumbotron subhead" id="overview">
+    <div class="jumbotron subhead" id="overview">      
+      @if (session('status'))
+        <h1>{{session('status')}}</h1>
+      @endif
       <!--<div class="container">
         <div class="row">
           <div class="span12">
@@ -21,6 +24,13 @@
 @endsection
 
 @section('seccion2')
+
+@if (isset(Auth::user()->transaction_id) && 
+     isset(Auth::user()->transaction_status) &&
+     Auth::user()->transaction_status == 'approved'
+    )
+    
+
 <section id="breadcrumb">
     <div class="container">
       <div class="row">
@@ -77,4 +87,7 @@
       </div>
     </div>
 </section>
+@else
+@include('suscriptor.unsuscriptor')  
+@endif
 @endsection

@@ -34,6 +34,13 @@ class AdministradorController extends Controller
 
     }
 
+    public function cursoform(Request $request,$idcurso){                        
+        $curso =  Curso::find($idcurso);
+        if($curso==null)
+            $curso = new Curso();
+        return view('administrador.cursoform',['curso'=>$curso]);
+    }
+
     public function temacursoform(Request $request,$idcurso,$idtema=null){        
         $tema = ($idtema>0) ? TemasCurso::find($idtema) : new TemasCurso();        
         $curso = Curso::find($idcurso);
@@ -45,7 +52,8 @@ class AdministradorController extends Controller
         $request->validate([
             'nombre' => 'required',
             'descripcion' => 'required',
-            'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024|dimensions:max_width=800,max_height=600',
+            //'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024|dimensions:max_width=800,max_height=600',
+            'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024',
         ]);
 
         $id = $request->id;
@@ -59,7 +67,11 @@ class AdministradorController extends Controller
         
         $curso = ($id>0) ? Curso::find($id) : new Curso();
             $curso->nombre = $nombre;
-            $curso->descripcion = $descripcion;            
+            $curso->descripcion = $descripcion;    
+            
+        if($curso == null){
+            die("Curso no valido");
+        }
 
         if(isset($request->uri_miniatura)){ 
             $fileName = md5($request->nombre.time()).'.'.$request->uri_miniatura->extension();           
@@ -68,10 +80,8 @@ class AdministradorController extends Controller
         }elseif ($curso->id ==null || $curso->id <= 0){
             $curso->uri_miniatura = 'dummies/work7.jpg';
         }
-        
-        //dump($curso);
+                
         $curso->save();
-
         return redirect('admin/curso/'.$curso->id);
     }
 

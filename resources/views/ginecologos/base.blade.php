@@ -55,37 +55,20 @@
                                         <a href="{{url('/')}}">Inicio</a>
                                     </li>
                                     <li class="{{Request::is('nosotros') ? 'active':''}}">
-                                        <a href="{{url('nosotros')}}">Nosotros</a>
-                                        <!--<ul class="dropdown-menu">
-                                            <li><a href="overview.html">Presentación</a></li>
-                                            <li><a href="scaffolding.html">Mesa Diretiva</a></li>
-                                            <li><a href="base-css.html">Reglamento</a></li>
-                                            <li><a href="components.html">Historia</a></li>
-                                        </ul>-->
+                                        <a href="{{url('nosotros')}}">Nosotros</a>                                        
                                     </li>
                                     <li>
-                                        <a href="#">Eventos</a>
-                                        <!--<ul class="dropdown-menu">
-                                            <li><a href="about.html">Entrada al Evento</a></li>
-                                        </ul>-->
+                                        <a href="#">Eventos</a>                                        
                                     </li>
                                     <li>
                                         <a href="{{ route('blog') }}">Blog</a>
                                     </li>
                                     <li class="{{Request::is('contacto') ? 'active':''}}">
                                         <a href="{{ route('contacto') }}">Contacto</a>
-                                    </li>
-                                    <!--<li>
-                                        <a href="contact.html">Acción Social</a>
-                                    </li>-->
+                                    </li>                                    
 
                                     <li class="{{Request::is('afiliate') ? 'active':''}}">
-                                        <a href="{{url('afiliate')}}">Suscripción</a>
-                                        <!--<ul class="dropdown-menu">
-                                            <li><a href="overview.html">Beneficios</a></li>
-                                            <li><a href="scaffolding.html">Requisitos</a></li>
-                                            <li><a href="base-css.html">Pago</a></li>
-                                        </ul>-->
+                                        <a href="{{url('afiliate')}}">Suscripción</a>                                        
                                     </li>
 
                                     <li class="{{Request::is('login') ? 'active':''}}">

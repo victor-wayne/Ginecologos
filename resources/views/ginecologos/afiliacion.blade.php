@@ -75,7 +75,7 @@
                                 <li><label>Beneficios :</label> Acceso a contenido exclusivo</li>
                                 <li><label>Precio :</label> <span style="color:#239b56;"><strong>$999.99 MXN</strong></span> !Por tiempo limitado¡</li>                    
                                 <li class="text-center">
-                                    <a href="#"><img src="assets/img/paypal.png" alt="Pago" width="96px" /></a> 
+                                <a href="{{ url('/paypal/pay') }}"><img src="assets/img/paypal.png" alt="Pago" width="96px" /></a> 
                                 </li>
 
                             </ul>

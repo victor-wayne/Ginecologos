@@ -47,7 +47,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="{{url('/suscriptor')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
+                        <a class="brand logo" href="{{url('/suscriptor')}}"><img src="{{ asset('assets/img/logo-ginecologos.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -56,7 +56,7 @@
 
                                     <li class="dropdown">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            {{ Auth::user()->name }} <span class="caret"></span>
+                                            <i class="icon-user"></i>{{ Auth::user()->name }} <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>

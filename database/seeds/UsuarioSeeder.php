@@ -17,6 +17,8 @@ class UsuarioSeeder extends Seeder
                 'name' => 'Wayne',
                 'email'  => 'sudosistemasfh@gmail.com',
                 'password' => \Hash::make('WATS_VDJm10$'),
+                'transaction_id' => null,
+                'transaction_status'=>null,
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime
             ],
@@ -25,6 +27,8 @@ class UsuarioSeeder extends Seeder
                 'name' => 'Victor',
                 'email'  => 'victoritcelaya@gmail.com',
                 'password' => \Hash::make('12345'),
+                'transaction_id' => null,
+                'transaction_status'=>null,
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime
             ],

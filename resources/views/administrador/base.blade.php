@@ -193,6 +193,23 @@
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
         <script src="{{ asset('assets/js/modalLoading.js') }}"></script>
+        <script type="text/javascript">
+            function getForm(url){
+                modalLoading.show();
+                $.ajax({
+                    url: url, 
+                    success: function(result){
+                    $("#modal-content").html(result);      
+                    modalLoading.hidden();
+                    },
+                    error:function(){
+                    modalLoading.hidden();
+                    alert("Error");
+                    }
+                });
+            }
+        </script>
+        @yield('script')
 
     </body>
 </html>
