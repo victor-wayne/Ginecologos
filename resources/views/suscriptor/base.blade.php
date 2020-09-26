@@ -111,6 +111,7 @@
                 
         <!-- Footer
 ================================================== -->
+<<<<<<< HEAD
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -126,6 +127,40 @@
                         <li><a href="#">Afiliate</a></li>
                         <li><a href="#">Login</a></li>
                     </ul>
+=======
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <div class="widget">
+                            <h5>Browse pages</h5><br>
+                            <ul class="regular">
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Eventos</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Acción Social</a></li>
+                                <li><a href="#">Afiliate</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="widget">
+
+
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="widget">
+                            <!-- logo -->
+                            <a class="brand logo" href="index.html">
+                                <img src="{{ asset('assets/img/logo-ginecologosa.png') }}" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+>>>>>>> 3b4077f87ac5bc43220c76d789c378a229120ef5
                 </div>
             </div>
             <div class="span4">

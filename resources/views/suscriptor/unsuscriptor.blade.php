@@ -32,7 +32,11 @@
               </div>
               <div class="span4">
                 <div class="project-widget">
+<<<<<<< HEAD
                   <p><i class="icon-circled icon-48 icon-film active"></i></i><span style="color:#d98880;font-size:18px;"><strong>Suscripción</strong></span></p>
+=======
+                  <h4><i class="icon-48 icon-group"></i></i><span style="color:#d98880;"><strong>Suscripción</strong></span></h4><br>
+>>>>>>> 3b4077f87ac5bc43220c76d789c378a229120ef5
                   <ul class="project-detail">
                     <li><label>Proyecto :</label> Video Cursos Interactivos</li>
                     <li><label>Categoria :</label> Ginecologia y Obstetricia</li>

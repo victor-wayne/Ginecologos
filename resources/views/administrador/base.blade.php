@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="span4">
                         <div class="widget">
-                            <h5>Browse pages</h5>
+                            <h5>Browse pages</h5><br>
                             <ul class="regular">
                                 <li><a href="#">Nosotros</a></li>
                                 <li><a href="#">Eventos</a></li>
@@ -125,28 +125,17 @@
                     </div>
                     <div class="span4">
                         <div class="widget">
-                            <h5>Recent blog posts</h5>
-                            <ul class="regular">
-                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                <li><a href="#">Mea malis nominavi insolens ut</a></li>
-                                <li><a href="#">Minim timeam has no aperiri sanctus ei mea per pertinax</a></li>
-                                <li><a href="#">Te malorum dignissim eos quod sensibus</a></li>
-                            </ul>
+
                         </div>
                     </div>
                     <div class="span4">
                         <div class="widget">
                             <!-- logo -->
                             <a class="brand logo" href="index.html">
-                                <img src="{{ asset('assets/img/logo-dark.png') }}" alt="">
+                                <img src="{{ asset('assets/img/logo-ginecologosa.png') }}" alt="">
                             </a>
                             <!-- end logo -->
-                            <address>
-                                <strong>Registered Companyname, Inc.</strong><br>
-                                8895 Somename Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address>
+
                         </div>
                     </div>
                 </div>

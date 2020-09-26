@@ -185,7 +185,7 @@
 
                         Swal.fire({
                             title: '<strong><h2>Mesa Directiva</h2></strong><br>',
-                            width: '50%',
+                            width: '80%',
                             heightAuto: true,
                             html: '<div class="row">' +
                                 '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image" <br>' +
@@ -218,25 +218,38 @@
 
                     case 2:
                         Swal.fire({
-                            title: '<strong><h2>Oncología Urológica</h2></strong>',
-                            width: '90%',
+                            title: '<strong><h2>Consentimiento Informado</h2></strong><br>',
+                            width: '80%',
                             heightAuto: true,
-                            html: '<div class="row">' +
-                                '<div class = "col-md-6 "><i class="icon-circled icon-32 icon-group left active" src="' + "{{asset('assets/img/doctor.png')}}" + '>' +
-                                ' </div> <div class = "col-md-5" >' +
-                                '<p align = "justify" >Nos enfocamos en el diagnóstico y estudio de tumores en el sistema urinario, este abarca próstata, Riñón, Vejiga tanto de hombres como mujeres y cáncer de testículos.</p>' +
-                                '<ul align="justify"> ' +
-                                '<li><strong>Cáncer de próstata:</strong>Es uno de los más comunes y de las principales causas de' +
-                                ' muerte entre los hombres, la detección oportuna es primordial.</li>' +
-                                ' <li> <strong>Cáncer de vejiga:</strong> Los síntomas de este cáncer incluyen sangrado al orinar, urgencia' +
-                                ' frecuente para orinar, dolor al orinar, dolor en parte baja de la espalda.</li>' +
-                                ' <li> <strong>Cáncer de Riñón:</strong>Es probable que en el inicio de esta enfermedad no se presenten' +
-                                ' síntomas, pero aparecerán mediante la enfermedad evolucione, debes estar atento' +
-                                ' si se presenta Sangre en la orina, bulto en el abdomen, pérdida de peso sin razón,' +
-                                ' dolor en costado que no desaparece, pérdida de apetito.</li>' +
-                                ' <li> <strong>Cáncer testicular:</strong>Es más común en hombres entre los 15 y 40 años, los síntomas' +
-                                ' incluyen inflamación, crecimiento sin dolor y alteraciones en la estructura del testículo.</li>' +
-                                ' </ul> </div ></div > ',
+                            html:'<div class="row">' +
+                                '<div class="span4"><div class="widget">'+
+                                '<h1>Tema</h1><br>' +
+                                '<p><h4>Cerclaje</h4><br>' +
+                                '<h4>Cesárea</h4><br>'+
+                                '<h4>Cirugía</h4><br>'+
+                                '<h4>Cirugía como tratamiento de infertilidad</h4><br>'+
+                                '<h4>Cirugía de cervix</h4><br>'+
+                                '<h4>Cirugía de incontinencia urinaria</h4><br>'+
+                                '<h4>Cirugía de relajación de piso pélvico</h4><br>'+
+                                '<h4>Cirugía Laparoscopica</h4><br>'+
+                                '<h4>Consulta y estudio de infertilidad</h4><br>'+
+                                '<h4>Control prenatal</h4><br>'+
+                                '<h4>Histerectomia</h4><br>'+
+                                '<h4>Inducción del parto</h4><br>'+
+                                '<h4>Inducción de ovulación</h4><br>'+
+                                '<h4>Inseminación artificial</h4><br>'+
+                                '<h4>Laparotomía explorada</h4><br>'+
+                                '<h4>Legrado uterino</h4><br>'+
+                                '<h4>Miomectomía</h4><br>'+
+                                '<h4>Oclusión tubaria</h4><br>'+
+                                '<h4>Resección de masa de seno</h4></p><br>'+
+                                '</div></div>'+
+                                '<div class="span4"><div class="widget">'+
+                                '<p><h1>Descargar</p><br>'+
+                                    '<i class="icon-circled icon-32 icon-download-alt"><br><br>'+
+                                    '<i class="icon-circled icon-32 icon-download-alt"><br><br>'+
+
+                                    '</div></div></div>',
                             showCloseButton: true,
                             showCancelButton: false,
                             focusConfirm: false,
@@ -247,7 +260,7 @@
 
                         Swal.fire({
                             title: '<strong><h2>Beneficios</h2></strong><br>',
-                            width: '50%',
+                            width: '80%',
                             heightAuto: true,
                             html: '<div class="row">' +
                                 '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/moneda.png') }}" + '" width="30px" alt="Latest Products Image">' +
@@ -267,21 +280,33 @@
                         break;
                     case 4:
                         Swal.fire({
-                            title: '<strong><h2>Cirugía endoscópica de próstata</h2></strong>',
-                            width: '90%',
+                            title: '<strong><h2>Consentimiento Informado</h2></strong><br>',
+                            width: '80%',
                             heightAuto: true,
                             html: '<div class="row">' +
-                                '<div class = "col-md-6 "><img class="img-responsive" src="' + "{{ asset('img/970x647/endoscopia1.jpeg') }}" + '" width="435px" alt="Latest Products Image">' +
-                                ' </div> <div class = "col-md-5" >' +
-                                '<p align = "justify" > Usando la mejor tecnología para brindarte una pronta recuperación. </p>' +
-                                '<ul align="justify">' +
-                                ' <li><strong>Enucleación Prostática con Láser Holmio: </strong>Esta cirugía ayuda a reducir los síntomas' +
-                                ' urinarios por la hiperplasia prostática benigna mediante un láser que corta el exceso' +
-                                ' de tejidos para luego ser extraídos. < /li>' +
-                                ' <li><strong>Resección bipolar prostática: </strong>Técnica quirúrgica mediante energía eléctrica usando' +
-                                ' solución salina con la misma osmolaridad de la sangre disminuyendo las' +
-                                ' complicaciones del agua destilada.</li>' +
-                                '</ul> </div ></div > ',
+                                '<div class = "col-md-6 ">' +
+                                ' <ul align="center">' +
+                                ' <li><h4>Cerclaje<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cesárea<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía como tratamiento de infertilidad<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía de cervix<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía de incontinencia urinaria<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía de relajación de piso pélvico<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cirugía Laparoscopica<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Consulta y estudio de infertilidad<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Control prenatal<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Histerectomia<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Inducción del parto<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Inducción de ovulación<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Inseminación artificial<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Laparotomía explorada<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Legrado uterino<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Miomectomía<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Oclusión tubaria<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Resección de masa de seno<i class="icon-download-alt"></i></h4></li><br>' +
+                                '</ul></div> ' +
+                                ' </div > ',
                             showCloseButton: true,
                             showCancelButton: false,
                             focusConfirm: false,
