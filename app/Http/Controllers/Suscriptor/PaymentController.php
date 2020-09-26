@@ -35,12 +35,6 @@ class PaymentController extends Controller
 
     public function payWithPayPal()
     {
-        $user = Auth::user();       
-        if(isset($user->transaction_id) && $user->transaction_status=='approved'){
-            return redirect('/suscriptor');
-        }
-
-
         $payer = new Payer();
         $payer->setPaymentMethod('paypal');
 
@@ -51,7 +45,7 @@ class PaymentController extends Controller
         $transaction = new Transaction();
         $transaction->setAmount($amount);        
 
-        $callbackUrl = url('/suscriptor');
+        $callbackUrl = url('/suscriptor/paypal/status');
 
         $redirectUrls = new RedirectUrls();
         $redirectUrls->setReturnUrl($callbackUrl)
@@ -93,8 +87,6 @@ class PaymentController extends Controller
         /** Execute the payment **/
         $result = $payment->execute($execution, $this->apiContext);
 
-        
-
         if ($result->getState() === 'approved') {        
             $transaction_id=$result->getTransactions()[0]->getRelatedResources()[0]->getSale()->getId();
             $transaction_status = $result->getState();            
@@ -106,7 +98,8 @@ class PaymentController extends Controller
             return redirect('/suscriptor')->with(compact('status'));
         }
         
-        $status = 'Lo sentimos! El pago a través de PayPal no se pudo realizar.';
+        $status = 'Lo sentimos! El pago a través de PayPal no se pudo procesar.';
         return redirect('/suscriptor')->with(compact('status'));
-    }    
+    }
+
 }

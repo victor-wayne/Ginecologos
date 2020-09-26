@@ -27,7 +27,8 @@
         <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">-->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
         <!-- =======================================================
         Theme Name: Serenity
@@ -67,8 +68,8 @@
                                         <a href="{{ route('contacto') }}">Contacto</a>
                                     </li>                                    
 
-                                    <li class="{{Request::is('afiliate') ? 'active':''}}">
-                                        <a href="{{url('afiliate')}}">Suscripción</a>                                        
+                                    <li class="{{Request::is('register') ? 'active':''}}">
+                                        <a href="{{url('register')}}">Registro</a>                                        
                                     </li>
 
                                     <li class="{{Request::is('login') ? 'active':''}}">

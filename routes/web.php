@@ -41,8 +41,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/paypal/pay', 'PaymentController@payWithPayPal');
-Route::get('/paypal/status', 'PaymentController@payPalStatus');
 
 Route::group(['middleware' => ['auth','role:administrador']], function () {
     Route::get('/admin','Administrador\AdministradorController@index')->name('administrador');
@@ -55,6 +53,8 @@ Route::group(['middleware' => ['auth','role:administrador']], function () {
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/suscriptor','Suscriptor\SuscriptorController@index')->name('suscriptor');    
+    Route::get('/suscriptor/user', 'Suscriptor\SuscriptorController@user');
+    Route::post('/suscriptor/changepassword', 'Suscriptor\SuscriptorController@changePassword')->name('changepassword');
     Route::get('/suscriptor/curso/{id}', 'Suscriptor\SuscriptorController@curso');
     Route::get('/suscriptor/paypal/pay', 'Suscriptor\PaymentController@payWithPayPal');
     Route::get('/suscriptor/paypal/status', 'Suscriptor\PaymentController@payPalStatus');

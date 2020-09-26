@@ -60,7 +60,7 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="#"><i class="icon-cog"></i>Ajustes</a>
+                                                <a href="{{url('/suscriptor/user')}}"><i class="icon-cog"></i>Ajustes</a>
                                             </li>
                                             
                                             <li>
@@ -93,77 +93,81 @@
         <div id="seccion3">
             @yield('seccion3')
         </div>
+
+        <!-- === Modal ==== -->
+
+        <div id="modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="modalLabel">@yield('modal-title')</h3>
+            </div>
+            <div class="modal-body">
+                @yield('modal-content')
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" onclick="cleanModal();" aria-hidden="true">Cancelar</button>              
+            </div>
+        </div>
                 
         <!-- Footer
 ================================================== -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="span4">
-                        <div class="widget">
-                            <h5>Browse pages</h5>
-                            <ul class="regular">
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">Eventos</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacto</a></li>
-                                <li><a href="#">Acción Social</a></li>
-                                <li><a href="#">Afiliate</a></li>
-                                <li><a href="#">Login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="widget">
-                            <h5>Recent blog posts</h5>
-                            <ul class="regular">
-                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                <li><a href="#">Mea malis nominavi insolens ut</a></li>
-                                <li><a href="#">Minim timeam has no aperiri sanctus ei mea per pertinax</a></li>
-                                <li><a href="#">Te malorum dignissim eos quod sensibus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="widget">
-                            <!-- logo -->
-                            <a class="brand logo" href="index.html">
-                                <img src="{{ asset('assets/img/logo-dark.png') }}" alt="">
-                            </a>
-                            <!-- end logo -->
-                            <address>
-                                <strong>Registered Companyname, Inc.</strong><br>
-                                8895 Somename Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address>
-                        </div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <div class="widget">
+                    <h5>Browse pages</h5><br>
+                    <ul class="regular">
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Acción Social</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="span4">
+                <div class="widget">
+
+                </div>
+            </div>
+            <div class="span4">
+                <div class="widget">
+                    <!-- logo -->
+                    <a class="brand logo" href="index.html">
+                        <img src="{{ asset('assets/img/logo-ginecologosa.png') }}" alt="">
+                    </a>
+                    <!-- end logo -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="verybottom">
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <p>
+                        &copy; Serenity - All right reserved
+                    </p>
+                </div>
+                <div class="span6">
+                    <div class="credits">
+                        <!--
+                        All the links in the footer should remain intact.
+                        You can delete the links only if you purchased the pro version.
+                        Licensing information: https://bootstrapmade.com/license/
+                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Serenity
+                        -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
             </div>
-            <div class="verybottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="span6">
-                            <p>
-                                &copy; Serenity - All right reserved
-                            </p>
-                        </div>
-                        <div class="span6">
-                            <div class="credits">
-                                <!--
-                                All the links in the footer should remain intact.
-                                You can delete the links only if you purchased the pro version.
-                                Licensing information: https://bootstrapmade.com/license/
-                                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Serenity
-                                -->
-                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 
         <!-- JavaScript Library Files -->
         <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
