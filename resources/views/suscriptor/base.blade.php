@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">        
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -62,7 +62,7 @@
                                             <li>
                                                 <a href="{{url('/suscriptor/user')}}"><i class="icon-cog"></i>Ajustes</a>
                                             </li>
-                                            
+
                                             <li>
                                                 <a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                                                     <i class="icon-off"></i>{{ __('Cerrar Sessión') }}
@@ -70,9 +70,9 @@
                                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                     @csrf
                                                 </form>
-                                            </li>                                                                                                                           
+                                            </li>
                                         </ul>
-                                    </li>                                    
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -105,29 +105,12 @@
                 @yield('modal-content')
             </div>
             <div class="modal-footer">
-              <button class="btn" data-dismiss="modal" onclick="cleanModal();" aria-hidden="true">Cancelar</button>              
+              <button class="btn" data-dismiss="modal" onclick="cleanModal();" aria-hidden="true">Cancelar</button>
             </div>
         </div>
-                
+
         <!-- Footer
 ================================================== -->
-<<<<<<< HEAD
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="span4">
-                <div class="widget">
-                    <h5>Browse pages</h5><br>
-                    <ul class="regular">
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Acción Social</a></li>
-                        <li><a href="#">Afiliate</a></li>
-                        <li><a href="#">Login</a></li>
-                    </ul>
-=======
         <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -160,7 +143,6 @@
 
                         </div>
                     </div>
->>>>>>> 3b4077f87ac5bc43220c76d789c378a229120ef5
                 </div>
             </div>
             <div class="span4">

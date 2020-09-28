@@ -26,17 +26,13 @@
                 </div>
                 <!-- end flexslider -->
                 <p>El Colegio de Ginecologia y Obstetricia de Celaya, te da la mas coordial bienvenida<br>
-                
+
                   Suscribite al mejor contenido, con mas de 100 horas de video, mas de 50 manuales y cientos de tutoriales.
                 </p>
               </div>
               <div class="span4">
                 <div class="project-widget">
-<<<<<<< HEAD
-                  <p><i class="icon-circled icon-48 icon-film active"></i></i><span style="color:#d98880;font-size:18px;"><strong>Suscripción</strong></span></p>
-=======
                   <h4><i class="icon-48 icon-group"></i></i><span style="color:#d98880;"><strong>Suscripción</strong></span></h4><br>
->>>>>>> 3b4077f87ac5bc43220c76d789c378a229120ef5
                   <ul class="project-detail">
                     <li><label>Proyecto :</label> Video Cursos Interactivos</li>
                     <li><label>Categoria :</label> Ginecologia y Obstetricia</li>
@@ -44,13 +40,13 @@
                     <li><label>Nombre: </label>{{ Auth::user()->name }}</li>
                     <li><label>Email: </label> {{ Auth::user()->email }}</li>
                     <li><label>Precio :</label> <span style="color: #2980b9;font-weight:bold;">$350.00 MXN</span></li>
-                    <li style="text-align: center;">                        
+                    <li style="text-align: center;">
                         <a href="{{ url('/suscriptor/paypal/pay') }}">
                             <img src="assets/img/paypal_ic.png" alt="Paypal" width="70px" height="70px" />
                         </a>
                     </li>
                     <li><span style="font-size: 10px;">*Aplica<span style="color:#239b56;">Terminos y Condiciones</span></span></li>
-                  </ul>                  
+                  </ul>
                 </div>
               </div>
             </div>
