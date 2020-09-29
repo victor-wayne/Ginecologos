@@ -286,25 +286,25 @@
                             html: '<div class="row">' +
                                 '<div class = "col-md-6 ">' +
                                 ' <ul align="center">' +
-                                ' <li><h4>Cerclaje<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cesárea<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía como tratamiento de infertilidad<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía de cervix<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía de incontinencia urinaria<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía de relajación de piso pélvico<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Cirugía Laparoscopica<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Consulta y estudio de infertilidad<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Control prenatal<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Histerectomia<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Inducción del parto<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Inducción de ovulación<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Inseminación artificial<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Laparotomía explorada<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Legrado uterino<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Miomectomía<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Oclusión tubaria<i class="icon-download-alt"></i></h4></li><br>' +
-                                ' <li><h4>Resección de masa de seno<i class="icon-download-alt"></i></h4></li><br>' +
+                                ' <li><h4>Cerclaje <a href="{{ asset('assets/docs/cerclaje.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cesárea <a href="{{ asset('assets/docs/cesarea.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía <a href="{{ asset('assets/docs/cirugia.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía como tratamiento de infertilidad <a href="{{ asset('assets/docs/cirugiacomotratamientodeinfertilidad.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía de cervix <a href="{{ asset('assets/docs/cirugiadecervix.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía de incontinencia urinaria <a href="{{ asset('assets/docs/cirugiadeincontinenciaurinaria.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía de relajación de piso pélvico <a href="{{ asset('assets/docs/cirugiaderelajaciondelpisopelvico.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Cirugía Laparoscopica <a href="{{ asset('assets/docs/cirugialaparoscopica.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Consulta y estudio de infertilidad <a href="{{ asset('assets/docs/consultayestudiodeinfertilidad.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Control prenatal <a href="{{ asset('assets/docs/controlprenatal.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Histerectomia <a href="{{ asset('assets/docs/histerectomia.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Inducción del parto <a href="{{ asset('assets/docs/inducciondelparto.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Inducción de ovulación <a href="{{ asset('assets/docs/inducciondeovulacion.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Inseminación artificial <a href="{{ asset('assets/docs/inseminacionartificial.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Laparotomía explorada <a href="{{ asset('assets/docs/laparotomiaexploradora.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Legrado uterino <a href="{{ asset('assets/docs/legradouterino.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Miomectomía <a href="{{ asset('assets/docs/miomectomia.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Oclusión tubaria <a href="{{ asset('assets/docs/oclusiontubaria.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
+                                ' <li><h4>Resección de masa de seno <a href="{{ asset('assets/docs/resecciondemasaenseno.pdf') }}"><i class="icon-download-alt"></i></a></h4></li><br>' +
                                 '</ul></div> ' +
                                 ' </div > ',
                             showCloseButton: true,
@@ -320,6 +320,8 @@
 
             }
         </script>
+        <style type ="text/css"> ul {list-style-type: none;} </style>
+
 
 
     </body>
