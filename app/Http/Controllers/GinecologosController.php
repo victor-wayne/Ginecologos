@@ -12,8 +12,12 @@ class GinecologosController extends Controller
     }
 
     public function nosotros(){
-
-        return view('ginecologos.nosotros3');
+        $archivos= scandir(str_replace('\\', '/', public_path()) . '/assets/img/galeria');
+        if($archivos){
+            unset($archivos[0]);
+            unset($archivos[1]);
+        }                
+        return view('ginecologos.nosotros3',['galeria'=>$archivos]);
     }
 
     public function afiliacion(){

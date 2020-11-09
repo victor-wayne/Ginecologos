@@ -5,6 +5,7 @@ use App\Curso;
 use App\TemasCurso;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class AdministradorController extends Controller
 {
@@ -86,24 +87,20 @@ class AdministradorController extends Controller
     }
 
     public function savetema(Request $request){
-                
-
+                        
         $request->validate([
             'curso_id' => 'required',
             'nombre' => 'required',
             'autor' => 'required',
             'descripcion' => 'required',
-            'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024|dimensions:max_width=800,max_height=600',
+            'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024',
             'uri_multimedia' => 'mimes:mp4'            
         ]);
 
         $id = $request->id;
         
-
-
         if(!isset($request->curso_id) || !isset($request->nombre) || !isset($request->autor) 
-        || !isset($request->descripcion)){
-            //dump($request);
+        || !isset($request->descripcion)){            
             die('Datos incompletos');
         }
         
@@ -115,7 +112,7 @@ class AdministradorController extends Controller
             $TemasCurso->descripcion = trim($request->descripcion);     
             $TemasCurso->duracion = trim($request->duracion);       
 
-        if(isset($request->uri_miniatura)){ 
+        if(isset($request->uri_miniatura) ){ 
             $fileName = md5($request->nombre.time()).'.'.$request->uri_miniatura->extension();           
             $TemasCurso->uri_miniatura = 'miniaturas/'.$fileName;
             $request->uri_miniatura->move(public_path('assets/img/miniaturas'), $fileName);
@@ -123,15 +120,18 @@ class AdministradorController extends Controller
             $TemasCurso->uri_miniatura = 'dummies/work7.jpg';
         }
 
+        
         if(isset($request->uri_multimedia)){ 
             $fileName = md5($request->nombre.time()).'.'.$request->uri_multimedia->extension();           
             $TemasCurso->uri_multimedia = $curso->nombre.'/'.$fileName;
             $request->uri_multimedia->move(public_path('assets/videos/'.$curso->nombre), $fileName);
-        }elseif($id==null || $id<=0){
-            throw new Exception("No se cargo video");
+        }        
+        elseif($id==null || $id<=0){
+            throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte un archivo multimedia (video)']);            
+        }else{            
+            throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte un archivo multimedia (video)']);  
         }
-        
-        
+                
         $TemasCurso->save();
         return redirect('admin/curso/'.$curso->id);
     }

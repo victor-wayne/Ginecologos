@@ -42,7 +42,7 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <!-- logo -->
-                        <a class="brand logo" href="{{url('admin')}}"><img src="{{ asset('assets/img/logo-colegio.png') }}" alt=""></a>
+                        <a class="brand logo" href="{{url('admin')}}"><img src="{{ asset('assets/img/logo-ginecologos.png') }}" alt=""></a>
                         <!-- end logo -->
                         <!-- top menu -->
                         <div class="navigation">
@@ -92,7 +92,7 @@
         <!-- === Modal ==== -->
 
         <div id="modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-            <div class="modal-header">
+            <div class="modal-header" style="background: #53a575;color:#fff;">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
               <h3 id="modalLabel">@yield('modal-title')</h3>
             </div>
