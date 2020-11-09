@@ -27,9 +27,12 @@
         <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}">
 
 
-        <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+        <!--<link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />-->
+        <link href="{{ asset('assets/css/video-js.css') }}" rel="stylesheet">
         <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+        <!--<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>-->
+
+        <link href="{{ asset('assets/css/videojs-playlist-ui.vertical.css') }}" rel="stylesheet">
 
         <!-- =======================================================
         Theme Name: Serenity
@@ -203,6 +206,10 @@
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0" nonce="rXSaaB0i"></script>
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
-<script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+        <!--<script src="https://vjs.zencdn.net/7.8.4/video.js"></script>-->
+        <script src="{{ asset('assets/js/video.js') }}"></script>   
+        <script src="{{ asset('assets/js/videojs-playlist.js') }}"></script>   
+        <script src="{{ asset('assets/js/videojs-playlist-ui.js') }}"></script>  
+        @yield('custom_js')
     </body>
 </html>

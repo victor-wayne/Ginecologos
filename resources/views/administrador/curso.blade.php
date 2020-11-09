@@ -33,19 +33,27 @@
 </section>
 <section id="maincontent">
   <div class="container" style="border: 0px solid red;padding:10px;">
-
-
+        
     <div class="row">
       <div class="span4">
         <div class="well" style="background: #fff;">
           <div class="centered">
-            <img src="{{ asset('assets/img/'.$curso->uri_miniatura) }}" alt="Portada" width="250px" style="border: 0px solid;border-radius:10px;"/>
+
+            @if(!empty($curso->uri_miniatura) && file_exists('assets/img/'.$curso->uri_miniatura))
+              <img src="{{ asset('assets/img/'.$curso->uri_miniatura) }}" 
+              alt="Portada" width="250px" style="border: 0px solid;border-radius:10px;"/>
+            @else
+              <img src="{{ asset('assets/img/dummies/work7.jpg') }}" 
+              alt="Portada" width="250px" style="border: 0px solid;border-radius:10px;"/>
+            @endif
+
+            
             <h4>{{$curso->nombre}}</h4>
             <div class="dotted_line">
             </div>
             <ul>
               <li><strong>Total videos del curso:</strong> {{count($curso->temas)}}</li>
-              <li><strong>Total visitas:</strong> {{count($curso->temas)}}</li>
+              <!--<li><strong>Total visitas:</strong> {{count($curso->temas)}}</li>-->
             </ul>
             <p>
               {{$curso->descripcion}}
@@ -57,11 +65,29 @@
         <div class="well" style="background: #fff;">
           <div class="">            
             <h4>Detalle Curso</h4>
+            
             <a href="#modal" style="float: right;" role="button" class="btn btn-success" 
-            data-toggle="modal" onclick="getFormTema('{{ url('/admin/curso/'.$curso->id.'/tema/0/form/') }}');">
+              data-toggle="modal" 
+              onclick="getFormTema('{{ url('/admin/curso/'.$curso->id.'/tema/0/form/') }}');"
+            >
               Agregar Video
-            </a><br>
+            </a>
+            <br>
+
+            @if($curso->temas->isEmpty())
+            <br><br>
+            <div class="alert alert-warning">
+                <ul>
+                   <li>
+                      Aun no se ha cargado contenido a este curso
+                   </li>
+                </ul>
+            </div>
+                  
+            @endif
+
             @if ($errors->any())
+                    <br><br>
                     <div class="alert alert-danger">
                         <ul>
                             @foreach ($errors->all() as $error)
@@ -72,18 +98,27 @@
             @endif
             <div class="dotted_line">
             </div>
-            <div class="row-fluid" style="">
+            <div class="row-fluid" style="border: 0px solid red;">                
                 @foreach ($curso->temas as $tema)
-                <div class="span4 centered" style="">                  
-                  <ul style="text-align: left;">
-                  <li><img src="{{ asset('assets/img/'.$tema->uri_miniatura) }}" alt="tema" width="150px" style="border: 0px solid;border-radius:10px;"/></li>
+                <div class="centered" style="border: 0px solid red;height:300px;width:30%;float:left;margin-right:0.5%;margin-bottom:2%;">                  
+                  <ul style="text-align: left;overflow:hidden; height:90%;overflow-wrap: break-word;">
+
+                  @if(file_exists('assets/img/'.$tema->uri_miniatura))
+                    <li><img src="{{ asset('assets/img/'.$tema->uri_miniatura) }}" alt="tema"
+                      style="border: 0px solid;border-radius:10px;width:200px;height:150px;"/></li>
+                  @else
+                    <li style="color:red;">Imagen no encontrada</li>
+                  @endif
+                  
                   <li><strong>Nombre:</strong> {{$tema->nombre}}</li>
                   <li><strong>Autor:</strong> {{$tema->autor}}</li>
                   <li><strong>Duracion:</strong> {{$tema->duracion}}</li>
-                  <li><strong>Descripcion:</strong>{{$tema->descripcion}}</li>
-                  <li><a href="#modal" onclick="getFormTema('{{ url('/admin/curso/'.$curso->id.'/tema/'.$tema->id.'/form/') }}');" role="button" data-toggle="modal">Detalles</a></li>
+                  <li style=""><strong>Descripcion:</strong>{{$tema->descripcion}}</li>
                   </ul>
+                  <span><strong><a href="#modal" onclick="getFormTema('{{ url('/admin/curso/'.$curso->id.'/tema/'.$tema->id.'/form/') }}');" role="button" data-toggle="modal">Detalles</a></strong></span>
+                  <br>                  
                 </div>
+                
                 @endforeach                
             </div>
           </div>
@@ -124,7 +159,7 @@
   <div class="control-group">
     <label class="control-label" for="inputPassword">Descripcion</label>
     <div class="controls">
-      <textarea class="input-xlarge" name="descripcion" placeholder="Descripcion del curso" required></textarea>
+      <textarea class="input-xlarge" rows="4" cols="50" maxlength="100" name="descripcion" placeholder="Descripcion del curso" required></textarea>
     </div>
   </div>
   <div class="control-group">

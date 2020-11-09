@@ -36,7 +36,7 @@
         Author: BootstrapMade.com
         Author URL: https://bootstrapmade.com
         ======================================================= -->
-
+        @yield('custom_css')
     </head>
     <body data-spy="scroll" data-target=".bs-docs-sidebar" id="body-page">
         <header id="header">
@@ -178,6 +178,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
+        <script src="{{ asset('assets/js/jssor.slider-28.0.0.min.js') }}" type="text/javascript"></script><!--Galeria-->
         <script>
             function mostrarModal(numero) {
                 switch (numero) {
@@ -317,12 +318,13 @@
                     default:
                         break;
                 }
-
             }
         </script>
+
+        
+        @yield('custom_sccript')
+        
+
         <style type ="text/css"> ul {list-style-type: none;} </style>
-
-
-
     </body>
 </html>

@@ -56,8 +56,8 @@
             <li class="portfolio-item2" data-id="id-0" data-type="web">
               <div class="span3">
                 <div class="thumbnail">
-                  <div class="image-wrapp">
-                    <img src="assets/img/dummies/work{{$curso->id}}.jpg" alt="Portfolio name" title="" />
+                  <div class="image-wrapp">                                      
+                    <img src="{{ asset('assets/img/'.$curso->uri_miniatura) }}" alt="Curso" style="width: 100%;height:170px;" />                    
                     <article class="da-animate da-slideFromRight" style="display: block;">
                     <h4>{{ $curso->nombre }}</h4>
                       <a href="{{url('/suscriptor/curso/'.$curso->id)}}"><i class="icon-rounded icon-48 icon-link"></i></a>                   
