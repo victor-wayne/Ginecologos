@@ -39,8 +39,10 @@
                     <li><label>Beneficios :</label> Acceso a Contenido Exclusivo</li>
                     <li><label>Nombre: </label>{{ Auth::user()->name }}</li>
                     <li><label>Email: </label> {{ Auth::user()->email }}</li>
-                    <li><label>Precio :</label> <span style="color: #2980b9;font-weight:bold;">$350.00 MXN</span></li>
+                    <li><label>Precio :</label> <span style="color: #2980b9;font-weight:bold;">$3000.00 MXN</span></li>
+                    <h4 align="center">Paga Aqui</h4><br>
                     <li style="text-align: center;">
+
                         <a href="{{ url('/suscriptor/paypal/pay') }}">
                             <img src="assets/img/paypal_ic.png" alt="Paypal" width="70px" height="70px" />
                         </a>

@@ -119,15 +119,13 @@
                 <div class="row">
                     <div class="span4">
                         <div class="widget">
-                            <h5>Browse pages</h5><br>
+                            <h5>Páginas más Buscadas</h5><br>
                             <ul class="regular">
-                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                                 <li><a href="#">Eventos</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacto</a></li>
-                                <li><a href="#">Acción Social</a></li>
-                                <li><a href="#">Afiliate</a></li>
-                                <li><a href="#">Login</a></li>
+                                <li><a href="{{ route('blog') }}">Blog</a></li>
+                                <li><a href="{{ route('contacto') }}">Contacto</a></li>
+                                <li><a href="{{ route('login') }}">Login</a></li>
                             </ul>
                         </div>
                     </div>

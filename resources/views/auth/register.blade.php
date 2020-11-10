@@ -62,6 +62,21 @@
                             <span>Nombre:</span>
                             <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="off">
                         </div>
+
+                        <div class="text-right" style="border:0px solid; margin-right:25%;">
+                            <span>Apellidos:</span>
+                            <input id="apellidos" type="text" class="form-control @error('apellidos') is-invalid @enderror" name="apellidos" value="{{ old('apellidos') }}" required autocomplete="off">
+                        </div>
+
+                        <div class="text-right" style="border:0px solid; margin-right:25%;">
+                            <span>Dirección Consultorio:</span>
+                            <input id="direccion" type="text" class="form-control @error('direccion') is-invalid @enderror" name="direccion" value="{{ old('direccion') }}" required autocomplete="off">
+                        </div>
+
+                        <div class="text-right" style="border:0px solid; margin-right:25%;">
+                            <span>Telefono:</span>
+                            <input id="telefono" type="text" class="form-control @error('telefono') is-invalid @enderror" name="telefono" value="{{ old('telefono') }}" required autocomplete="off">
+                        </div>
     
                         
     
