@@ -10,8 +10,7 @@
                         <div class="centered">
                             <h3>Página de Contacto</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, modus salutatus honestatis ex mea. Sit cu probo putant. Nam ne impedit
-                                atomorum.
+                               Aquí puedes contactarnos para mas información.
                             </p>
                         </div>
                     </div>
@@ -39,19 +38,15 @@
                         <div class="widget">
                             <h4>Puedes Contactarnos</h4>
                             <ul>
-                                <li><label><strong>Phone : </strong></label>
-                                    <p>
-                                        +900 888 707 123
-                                    </p>
-                                </li>
+
                                 <li><label><strong>Email : </strong></label>
                                     <p>
                                         cgocelaya@gmail.com
                                     </p>
                                 </li>
-                                <li><label><strong>Adress : </strong></label>
+                                <li><label><strong>Dirección : </strong></label>
                                     <p>
-                                        Pasar kambing 58 Suite X.110 Peterongan Semarang, Indonesia
+                                        Celaya, Gto.
                                     </p>
                                 </li>
                             </ul>
@@ -59,15 +54,14 @@
                         <div class="widget">
                             <h4>Redes Sociales</h4>
                             <ul class="social-links">
-                                <li><a href="#" title="Twitter"><i class="icon-rounded icon-32 icon-twitter"></i></a></li>
                                 <li><a href="https://www.facebook.com/ColegiodeGinecologiadeCelaya " title="Facebook"><i class="icon-rounded icon-32 icon-facebook"></i></a></li>
-
                             </ul>
+
                         </div>
                     </aside>
                 </div>
                 <div class="span8">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119566.57558294137!2d-100.88619688266972!3d20.528536290971342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cba641e60c675%3A0x998fd3ad9a7d2747!2sCelaya%2C%20Gto.!5e0!3m2!1ses!2smx!4v1604947360746!5m2!1ses!2smx" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                     <div class="spacer30"></div>
                     <div class="form_contact">

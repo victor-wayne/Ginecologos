@@ -105,15 +105,13 @@
                 <div class="row">
                     <div class="span4">
                         <div class="widget">
-                            <h5>Browse pages</h5><br>
+                            <h5>Páginas más Buscadas</h5><br>
                             <ul class="regular">
-                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                                 <li><a href="#">Eventos</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacto</a></li>
-                                <li><a href="#">Acción Social</a></li>
-                                <li><a href="#">Afiliate</a></li>
-                                <li><a href="#">Login</a></li>
+                                <li><a href="{{ route('blog') }}">Blog</a></li>
+                                <li><a href="{{ route('contacto') }}">Contacto</a></li>
+                                <li><a href="{{ route('login') }}">Login</a></li>
                             </ul>
                         </div>
                     </div>
@@ -176,6 +174,7 @@
         <!-- Template Custom JavaScript File -->
         <script src="{{ asset('assets/js/custom.js') }}"></script>
 
+
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
         <script src="{{ asset('assets/js/jssor.slider-28.0.0.min.js') }}" type="text/javascript"></script><!--Galeria-->
@@ -219,38 +218,22 @@
 
                     case 2:
                         Swal.fire({
-                            title: '<strong><h2>Consentimiento Informado</h2></strong><br>',
+                            title: '<strong><h2>Accion Social</h2></strong><br>',
                             width: '80%',
                             heightAuto: true,
                             html:'<div class="row">' +
-                                '<div class="span4"><div class="widget">'+
-                                '<h1>Tema</h1><br>' +
-                                '<p><h4>Cerclaje</h4><br>' +
-                                '<h4>Cesárea</h4><br>'+
-                                '<h4>Cirugía</h4><br>'+
-                                '<h4>Cirugía como tratamiento de infertilidad</h4><br>'+
-                                '<h4>Cirugía de cervix</h4><br>'+
-                                '<h4>Cirugía de incontinencia urinaria</h4><br>'+
-                                '<h4>Cirugía de relajación de piso pélvico</h4><br>'+
-                                '<h4>Cirugía Laparoscopica</h4><br>'+
-                                '<h4>Consulta y estudio de infertilidad</h4><br>'+
-                                '<h4>Control prenatal</h4><br>'+
-                                '<h4>Histerectomia</h4><br>'+
-                                '<h4>Inducción del parto</h4><br>'+
-                                '<h4>Inducción de ovulación</h4><br>'+
-                                '<h4>Inseminación artificial</h4><br>'+
-                                '<h4>Laparotomía explorada</h4><br>'+
-                                '<h4>Legrado uterino</h4><br>'+
-                                '<h4>Miomectomía</h4><br>'+
-                                '<h4>Oclusión tubaria</h4><br>'+
-                                '<h4>Resección de masa de seno</h4></p><br>'+
-                                '</div></div>'+
-                                '<div class="span4"><div class="widget">'+
-                                '<p><h1>Descargar</p><br>'+
-                                    '<i class="icon-circled icon-32 icon-download-alt"><br><br>'+
-                                    '<i class="icon-circled icon-32 icon-download-alt"><br><br>'+
-
-                                    '</div></div></div>',
+                                '<div class = "col-md-6 "><img class="img-responsive" src="' + "{{ asset('assets/img/mono.jpg') }}" + '" width="100%" alt="Latest Products Image">' +
+                                ' </div> <div class = "col-md-5" >' +
+                                '<a href="https://www.facebook.com/MonologosdelaV">Monólogos de la vaginita adolescente</a> <br> <br>'+
+                                '<p align = "justify" >Monólogos de la vaginita adolescente es una obra de teatro que busca guiar a los jóvenes hacia una sexualidad responsable. Funciones en toda la República. </p> <br>'+
+                                '<strong><h2>Accion Social 2 </h2></strong><br>'+
+                                '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FColegiodeGinecologiadeCelaya%2Fvideos%2F360701031955662%2F&show_text=0&width=560" width="100%" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><br><br>'+
+                                '<p align = "justify">Como parte de los esfuerzos realizados en esta pandemia, donamos 300 cubrebocas de tela a la Jurisdicción Sanitaria No. 3 del Estado de Guanajuato. </p>' +
+                                '<strong><h2>Accion Social 3 </h2></strong><br>'+
+                                '<img class="img-responsive" src="' + "{{ asset('assets/img/gine2.jpg') }}" + '" width="100%" alt="Latest Products Image">'+
+                                '<a href="https://www.facebook.com/ColegiodeGinecologiadeCelaya">Colegio de Ginecología en Celaya</a> <br> <br>'+
+                                '<p align = "justify">Con el objetivo de promover la salud de la mujer ofrecemos información de interés en nuestras redes sociales del Colegio de Ginecología de manera semanal, así como conferencias gratuitas para la actualización médica continua. </p>'+
+                                ' </div ></div > ',
                             showCloseButton: true,
                             showCancelButton: false,
                             focusConfirm: false,

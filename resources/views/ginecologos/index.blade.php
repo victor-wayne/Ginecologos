@@ -220,7 +220,7 @@
                 <p class="left">
                     Conoce nuestras acciones sociales en pro de la Sociedad
                 </p>
-                <a href="#">Ver más</a>
+                <a href="https://www.facebook.com/MonologosdelaV">Ver más</a>
             </div>
         </div>
         <div class="row">
@@ -273,7 +273,7 @@
         <div class="row">
             <div class="span4">
                 <div class="widget">
-                    <h5>Browse pages</h5>
+                    <h5>Páginas más Buscadas</h5>
                     <ul class="regular">
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Eventos</a></li>
