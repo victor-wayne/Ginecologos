@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="control-group">
-    <label class="control-label" for="inputPassword">Descripcion</label>
+    <label class="control-label" for="inputDesc">Descripcion</label>
     <div class="controls">
       <textarea class="input-xlarge" rows="4" cols="50" maxlength="100" name="descripcion" placeholder="Descripcion del curso" required>{{$curso->descripcion}}</textarea>
     </div>

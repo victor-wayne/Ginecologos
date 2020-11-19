@@ -35,7 +35,7 @@
     <div class="control-group">
       <label class="control-label" for="inputPortada">Video:</label>
       <div class="controls">      
-        <input class="input-xlarge" type="file" name="uri_multimedia" />      
+        <input class="input-xlarge" type="text" name="uri_multimedia" value="{{$tema->uri_multimedia!='' ? 'https://youtu.be'.$tema->uri_multimedia:''}}" />      
       </div>
     </div>        
     <div class="control-group">
@@ -45,10 +45,21 @@
     </div>    
 </form>
 @if ($tema->id>0)
-    <div class="centered">                     
-        <video width="500" controls>
+    <div class="centered">  
+      <iframe 
+      id="video"
+      width="100%"     
+      height="400px"              
+      class="video-js"
+      src="{{'https://www.youtube.com/embed/'.$tema->uri_multimedia}}" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      onload="frameLoaded()">
+    </iframe>                   
+        <!--<video width="500" controls>
           <source src="{{ asset('assets/videos/'.$tema->uri_multimedia) }}" type="video/mp4">    
               Your browser does not support HTML video.
-        </video>
+        </video>-->
       </div>             
 @endif

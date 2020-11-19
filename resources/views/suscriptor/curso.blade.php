@@ -1,6 +1,6 @@
 @extends('suscriptor.base')
+@section('title',$curso->nombre)
 @section('seccion1')
-<?php //dump($curso->temas) ?>
 <section id="subintro">
     <div class="jumbotron subhead" id="overview">
       <!--<div class="container">
@@ -46,8 +46,19 @@
             <div class="span8" style="">
               <!-- start flexslider -->
               <div class="">
+                <iframe 
+                  id="video"
+                  width="100%"     
+                  height="400px"              
+                  class="video-js"
+                  src="#" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen
+                  onload="frameLoaded()">
+                </iframe>
                 <!--video-->
-                <video
+                <!--<video
                   id="video"
                   class="video-js"
                   controls
@@ -60,7 +71,7 @@
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that                    
                   </p>
-                </video>
+                </video>-->
               </div>
               <!-- end flexslider -->
               <div id="tdescripcion" style="border: 0px solid;overflow:hidden;overflow-wrap: break-word;padding:1%;">
@@ -79,25 +90,29 @@
     </div>
   </div>
 </section>
-
 @endsection
 
 @section('custom_js')
 <script>
+modalLoading.show();
 var obj=[];
 @foreach ($curso->temas as $tema)   
   obj.push(
-    JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{asset('assets/videos/'.$tema->uri_multimedia)}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
+    //JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{asset('assets/videos/'.$tema->uri_multimedia)}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
+    JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{'https://www.youtube.com/embed/'.$tema->uri_multimedia}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
   );
 @endforeach
-  $(document).ready(function(){    
+  
+  $(document).ready(function(){  
+            
     var player = videojs('video');
     player.playlist(obj);
-    player.playlist.autoadvance(0);
+    //player.playlist.autoadvance(0);
     player.playlistUi();
     $(".video-dimensions").css({"width":"100%","height":"400px"});
 
     player.on('playlistitem', function() {
+
       var i= player.playlist.currentItem();
       var item = obj[i];
 
@@ -118,8 +133,22 @@ var obj=[];
       contenedor.appendChild(nodo_titulo);
       contenedor.appendChild(nodo_desc);
 
+      //$( ".vjs-playlist-item" ).first().css( "color", "#53a575" );
+
+      $(".vjs-playlist-item").on("click",function(){          
+          modalLoading.show();
+          $(".vjs-playlist-item").css({"color":"#fff"});
+          $(this).css({"color":"#53a575"});
+          setTimeout(function(){ frameLoaded(); }, 5000);
+      });
+
     });
 
 });
+
+function frameLoaded(){
+  modalLoading.hidden();
+}
+
 </script>
 @endsection

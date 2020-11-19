@@ -9,6 +9,8 @@
 
         <!-- styles -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
         <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/bootstrap-responsive.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/docs.css') }}" rel="stylesheet">
@@ -61,7 +63,7 @@
                                     <li>
                                         <a href="#">Eventos</a>                                        
                                     </li>
-                                    <li>
+                                    <li class="{{Request::is('blog') ? 'active':''}}">
                                         <a href="{{ route('blog') }}">Blog</a>
                                     </li>
                                     <li class="{{Request::is('contacto') ? 'active':''}}">

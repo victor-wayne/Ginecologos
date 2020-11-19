@@ -210,6 +210,7 @@
         <script src="{{ asset('assets/js/video.js') }}"></script>   
         <script src="{{ asset('assets/js/videojs-playlist.js') }}"></script>   
         <script src="{{ asset('assets/js/videojs-playlist-ui.js') }}"></script>  
+        <script src="{{ asset('assets/js/modalLoading.js') }}"></script>
         @yield('custom_js')
     </body>
 </html>

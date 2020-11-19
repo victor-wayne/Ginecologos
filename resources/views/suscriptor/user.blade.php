@@ -46,7 +46,7 @@
         </div>
 
         <div class="span8">
-          <div class="well" style="border-radius: 10px;">
+          <div class="" style="border-radius: 10px;">
             <div class="centered">
               <i class="icon-circled icon-64 icon-user active"></i>
             <h4>{{ Auth::user()->name }}</h4>

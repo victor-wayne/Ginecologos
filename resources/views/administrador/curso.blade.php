@@ -32,11 +32,11 @@
   </div>
 </section>
 <section id="maincontent">
-  <div class="container" style="border: 0px solid red;padding:10px;">
+  <div class="container" style="border: 0px solid red;padding:10px;background: #fff ;">
         
     <div class="row">
       <div class="span4">
-        <div class="well" style="background: #fff;">
+        <div class="well" style="background: #fff ;">
           <div class="centered">
 
             @if(!empty($curso->uri_miniatura) && file_exists('assets/img/'.$curso->uri_miniatura))
@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="span8">
-        <div class="well" style="background: #fff;">
+        <div class="well" style="background: #fff ;">
           <div class="">            
             <h4>Detalle Curso</h4>
             
@@ -99,8 +99,11 @@
             <div class="dotted_line">
             </div>
             <div class="row-fluid" style="border: 0px solid red;">                
-                @foreach ($curso->temas as $tema)
-                <div class="centered" style="border: 0px solid red;height:300px;width:30%;float:left;margin-right:0.5%;margin-bottom:2%;">                  
+                
+              @foreach ($curso->temas as $tema)
+
+                <div class="centered" style="padding:2%;border: 0px solid red;height:300px;width:25%;
+                float:left;margin-right:2%;margin-bottom:2%;background:#f0f3f4 ;border-radius:10px;">                  
                   <ul style="text-align: left;overflow:hidden; height:90%;overflow-wrap: break-word;">
 
                   @if(file_exists('assets/img/'.$tema->uri_miniatura))
@@ -169,9 +172,9 @@
     </div>
   </div>
   <div class="control-group">
-    <label class="control-label" for="inputPortada">Video:</label>
+    <label class="control-label" for="inputVideo">Video:</label>
     <div class="controls">      
-      <input class="input-xlarge" type="file" name="uri_multimedia" />      
+      <input type="text" name="uri_multimedia" />
     </div>
   </div>
   <div class="control-group">

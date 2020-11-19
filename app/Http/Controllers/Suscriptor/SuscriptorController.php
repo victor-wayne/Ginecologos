@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Filesystem\Filesystem;
 use App\Curso;
 
 class SuscriptorController extends Controller
@@ -13,6 +14,10 @@ class SuscriptorController extends Controller
     //
     public function index(Request $request){
         $cursos = Curso::all();
+        
+        foreach($cursos as $curso){
+            $curso->uri_miniatura = !empty($curso->uri_miniatura) && file_exists(public_path('assets/img/').$curso->uri_miniatura)?$curso->uri_miniatura:"dummies/browser.png";            
+        }        
         return view('suscriptor.index',['cursos'=> $cursos]);        
     }
 

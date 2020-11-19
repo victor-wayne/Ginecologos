@@ -59,13 +59,89 @@
 @endsection
 @section('seccion2')
 <div class="container">
-    <div class="row">
+    
+      <div class="row">
         <div class="span12">
           <div class="divider">
-              <h4>Nosotros</h4>
+              <h4>Mesa Directiva</h4>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <div class="divider">              
+          </div>
+        </div>
+      </div>
+    <div class="row-fluid" style="">
+
+      <div class="span3 well" style="float:left;padding:1%;">
+        <div class="centered">
+          
+        <img src="{{ asset('assets/img/directiva/d3.jpg') }}" style="width:150px;height:150px;border-radius: 50%;"/>
+        <hr>    
+        <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Emmanuel Castro Almanza</span></h4>
+            <div class="dotted_line">
+            </div> 
+            <strong><span style="color:#53a575;">Presidente</span></strong>             
+          </div>          
     </div>
+
+    <div class="span3 well" style="float:left;padding:1%;">
+      <div class="centered">
+        <img src="{{ asset('assets/img/directiva/d4.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+        <hr>  
+        <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Jorge Dueñas<br>Riaño</span></h4>
+        <div class="dotted_line">
+        </div>
+        <strong><span style="color:#53a575;">Secretario</span></strong>              
+      </div>                            
+    </div>
+      
+      
+
+      <div class="span3 well" style="float:left;padding:1%;">
+        <div class="centered">
+          <img src="{{ asset('assets/img/directiva/d2.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+          <hr>  
+          <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Eduardo Mariano González</span></h4>
+          <div class="dotted_line">
+          </div> 
+          <strong><span style="color:#53a575;">Tesorero</span></strong>             
+        </div>          
+      </div>
+
+    <div class="span3 well" style="float:left;padding:1%;">
+      <div class="centered">
+          <img src="{{ asset('assets/img/directiva/d1.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+          <hr>
+          <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Marcelo Alejandro de la Torre</span></h4>
+          <div class="dotted_line">
+          </div>   
+          <strong><span style="color:#53a575;">Vocal</span></strong>                
+      </div>                                                    
+    </div>
+
+      
+
+    
+
+  </div>
+
+    <div class="row">
+      <div class="span12">
+        <div class="divider">
+          <h4>Nosotros</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        <div class="divider">              
+        </div>
+      </div>
+    </div>
+
 <div class="row-fluid" style="">
     <div class="span8 well" style="float:left;padding:1%;">
         
@@ -116,6 +192,12 @@
           <h4>¿Quienes Somos?</h4>
       </div>
     </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <div class="divider">              
+    </div>
+  </div>
 </div>
 
 <div class="row-fluid">
@@ -191,6 +273,12 @@
   <div class="span12">
     <div class="divider">    
       <h4>Galeria</h4>      
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <div class="divider">              
     </div>
   </div>
 </div>

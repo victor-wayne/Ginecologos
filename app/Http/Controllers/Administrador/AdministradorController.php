@@ -12,6 +12,9 @@ class AdministradorController extends Controller
     public function index(Request $request)
     {                
         $cursos = Curso::all();
+        foreach($cursos as $curso){
+            $curso->uri_miniatura = !empty($curso->uri_miniatura) && file_exists(public_path('assets/img/').$curso->uri_miniatura)?$curso->uri_miniatura:"dummies/browser.png";            
+        }
         return view('administrador.index',['cursos'=> $cursos]);     	  
     }
 
@@ -21,6 +24,15 @@ class AdministradorController extends Controller
 
         $curso = ($id > 0) ? Curso::with('temas')->find($id) : new Curso();
         
+        if($id>0){            
+            $curso->uri_miniatura = !empty($curso->uri_miniatura) && file_exists(public_path('assets/img/').$curso->uri_miniatura)?$curso->uri_miniatura:"dummies/browser.png";                        
+            foreach($curso->temas as $tema){                
+                $tema->uri_miniatura = !empty($tema->uri_miniatura) && file_exists(public_path('assets/img/').$tema->uri_miniatura)?$tema->uri_miniatura:"dummies/browser.png";                
+            }
+        }
+
+
+
         /*$tema = new TemasCurso();
         $tema->nombre = "El curso de alta";        
         $curso->temas->push($tema);
@@ -94,14 +106,15 @@ class AdministradorController extends Controller
             'autor' => 'required',
             'descripcion' => 'required',
             'uri_miniatura' => 'image|mimes:jpeg,png,jpg|max:1024',
-            'uri_multimedia' => 'mimes:mp4'            
+            //'uri_multimedia' => 'mimes:mp4'    
+            'uri_multimedia' => 'required'            
         ]);
 
         $id = $request->id;
         
         if(!isset($request->curso_id) || !isset($request->nombre) || !isset($request->autor) 
-        || !isset($request->descripcion)){            
-            die('Datos incompletos');
+        || !isset($request->descripcion) || !isset($request->uri_multimedia)){            
+            throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte un archivo multimedia (video)']);            
         }
         
         $curso = Curso::find($request->curso_id);
@@ -116,12 +129,13 @@ class AdministradorController extends Controller
             $fileName = md5($request->nombre.time()).'.'.$request->uri_miniatura->extension();           
             $TemasCurso->uri_miniatura = 'miniaturas/'.$fileName;
             $request->uri_miniatura->move(public_path('assets/img/miniaturas'), $fileName);
-        }elseif($id==null || $id<=0){            
+        }elseif($id==null || $id<=0){          
+            //Imagen por default  
             $TemasCurso->uri_miniatura = 'dummies/work7.jpg';
         }
 
-        
-        if(isset($request->uri_multimedia)){ 
+        //Se comenta para agregar los vides desde youtube
+        /*if(isset($request->uri_multimedia)){ 
             $fileName = md5($request->nombre.time()).'.'.$request->uri_multimedia->extension();           
             $TemasCurso->uri_multimedia = $curso->nombre.'/'.$fileName;
             $request->uri_multimedia->move(public_path('assets/videos/'.$curso->nombre), $fileName);
@@ -130,6 +144,25 @@ class AdministradorController extends Controller
             throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte un archivo multimedia (video)']);            
         }else{            
             throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte un archivo multimedia (video)']);  
+        }*/
+
+        if($request->uri_multimedia!=""){
+            try{
+                $url = parse_url($request->uri_multimedia);            
+                if($url["host"]!="youtu.be"){
+                    throw ValidationException::withMessages(['uri_multimedia' => 'Este video no se encuentra en youtube.com']);  
+                }
+                if($url["path"]==""){
+                    throw ValidationException::withMessages(['uri_multimedia' => 'Este video no se encuentra en youtube.com']);  
+                }                
+                $video_id=addslashes($url["path"]);
+                $TemasCurso->uri_multimedia = $video_id;
+            }catch(Exception $e){
+                throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) La ruta del video ingresada, no es valida']); 
+            }
+        }elseif($id==null || $id<=0){
+            //Si el curso es nuevo, por fueza debe llevar uri_multimedia
+            throw ValidationException::withMessages(['uri_multimedia' => '(ERROR) Adjunte la direccion del video']);            
         }
                 
         $TemasCurso->save();
