@@ -19,8 +19,8 @@ class TemaCursosTableSeeder extends Seeder
         $tema->autor='Carlos Chavez';
         $tema->duracion='5:56';
         $tema->descripcion='Curso de introduccion a estudio de la Ginecologia';    
-        $tema->uri_multimedia='https://www.google.com.mx/';    
-        $tema->uri_miniatura='https://www.google.com.mx/';    
+        $tema->uri_multimedia='/hFgSQk3ygxM';    
+        $tema->uri_miniatura='/hFgSQk3ygxM';    
         $tema->save();
 
         $tema = new TemasCurso();
@@ -29,8 +29,8 @@ class TemaCursosTableSeeder extends Seeder
         $tema->autor='Carlos Chavez';
         $tema->duracion='15:23';
         $tema->descripcion='Explicacion del estudio de la Ginecologia';    
-        $tema->uri_multimedia='https://www.google.com.mx/';    
-        $tema->uri_miniatura='https://www.google.com.mx/';    
+        $tema->uri_multimedia='/hFgSQk3ygxM';    
+        $tema->uri_miniatura='/hFgSQk3ygxM';    
         $tema->save();
             
          /** Curso 2 **/
@@ -40,8 +40,8 @@ class TemaCursosTableSeeder extends Seeder
          $tema->autor='Carlos Chavez';
          $tema->duracion='10:00';
          $tema->descripcion='Curso de introduccion a estudio de la Obstetricia';    
-         $tema->uri_multimedia='https://www.google.com.mx/';    
-         $tema->uri_miniatura='https://www.google.com.mx/';    
+         $tema->uri_multimedia='/hFgSQk3ygxM';    
+         $tema->uri_miniatura='/hFgSQk3ygxM';    
          $tema->save();
 
           /** Curso 3 **/
@@ -51,8 +51,8 @@ class TemaCursosTableSeeder extends Seeder
           $tema->autor='Carlos Chavez';
           $tema->duracion='7:23';
           $tema->descripcion='Curso de introduccion a estudio de la Medicina';    
-          $tema->uri_multimedia='https://www.google.com.mx/';    
-          $tema->uri_miniatura='https://www.google.com.mx/';    
+          $tema->uri_multimedia='/hFgSQk3ygxM';    
+          $tema->uri_miniatura='/hFgSQk3ygxM';    
           $tema->save();
 
            /** Curso 4 **/
@@ -62,8 +62,8 @@ class TemaCursosTableSeeder extends Seeder
            $tema->autor='Carlos Chavez';
            $tema->duracion='7:23';
            $tema->descripcion='Curso Complementario';    
-           $tema->uri_multimedia='https://www.google.com.mx/';    
-           $tema->uri_miniatura='https://www.google.com.mx/';    
+           $tema->uri_multimedia='/hFgSQk3ygxM';    
+           $tema->uri_miniatura='/hFgSQk3ygxM';    
            $tema->save();
             
 

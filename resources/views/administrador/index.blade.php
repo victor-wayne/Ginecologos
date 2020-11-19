@@ -8,7 +8,7 @@
             <div class="centered">              
               <p><strong>
                 Panel de Administración de cursos
-              </p></strong>
+              </p></strong>                
             </div>
           </div>
         </div>
@@ -45,6 +45,13 @@
                         </ul>
                     </div>
             @endif
+
+            @if (session('status'))
+              <div class="alert alert-danger">                                    
+                <p><i class="icon-warning-sign"></i>{{session('status')}}</p>
+              </div>                  
+            @endif
+
           </div>
           <div class="row">
             @foreach ($cursos as $curso)  
@@ -65,16 +72,13 @@
                             @else
                               <img src="{{ asset('assets/img/dummies/work4.jpg') }}" alt="Curso" style="width: 100%;height:170px;" />
                             @endif
-                            <article class="da-animate da-slideFromRight" style="display: block;">                            
-                              
+                            <article class="da-animate da-slideFromRight" style="display: block;">                                                          
                               <a href="#modal" role="button" data-toggle="modal" title="Editar"
                                  onclick="getForm('{{ url('/admin/curso/'.$curso->id.'/form/') }}');">
                                 <i class="icon-32 icon-edit btn-warning" style="border-radius: 5px;"></i>
-                              </a>
-                              
-
+                              </a>                              
                               <a href="#" data-toggle="tooltip" title="Eliminar"
-                                 onclick="event.preventDefault();document.getElementById('delete-curso-form-{{$curso->id}}').submit();">
+                                 onclick="event.preventDefault(); confirm('¿Desea borrar el curso seleccionado?') ? document.getElementById('delete-curso-form-{{$curso->id}}').submit() : console.log('No se borro el curso');">
 
                                  <i class="icon-32 icon-trash btn-danger" style="border-radius: 5px;"></i>
 
@@ -89,13 +93,11 @@
                       </div>
                     </li>
                 </ul>
-              </div>
-                                       
+              </div>                                       
               <div class="left" style="width:100%;height: 100px;overflow: hidden;text-overflow: ellipsis;background: #f7f9f9;">                
                 <p><strong>Descripcion:</strong></p>
                 {{ $curso->descripcion }}             
-              </div>
-              
+              </div>              
               <p>
                 <a href="{{url('/admin/curso/'.$curso->id)}}"><strong>Ver Contenido</strong></a>
               </p><br><br>
@@ -105,6 +107,36 @@
             @endforeach                                                 
             
           </div>
+
+          <div class="page-header">
+            <h3>Mensajes recibidos</h3>            
+          </div>
+          <!--Contactos-->
+          <div class="row">
+            <table class="table table-border">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Email</th>
+                  <th>Asunto</th>
+                  <th>Mensaje</th>
+                  <th>Fecha</th>
+                </tr>
+              </thead>
+              <tbody>
+            @foreach ($contactos as $contacto)  
+              <tr>
+                <td>{{$contacto->id}}</td>
+                <td>{{$contacto->email}}</td>
+                <td>{{ ucfirst(strtolower($contacto->asunto))}}</td>
+                <td>{{ ucfirst(strtolower($contacto->mensaje))}}</td>
+                <td>{{ ucfirst(strtolower($contacto->created_at))}}</td>
+              </tr>
+            @endforeach 
+              </tbody>
+            </table>                                                           
+          </div>
+
         </section>
       </div>
     </div>

@@ -55,7 +55,7 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="scaffolding.html"><i class="icon-cog"></i>Ajustes</a>
+                                                <a href="#"><i class="icon-cog"></i>Ajustes</a>
                                             </li>
                                             
                                             <li>

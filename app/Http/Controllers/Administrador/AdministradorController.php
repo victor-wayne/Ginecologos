@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Administrador;
 use App\Curso;
 use App\TemasCurso;
+use App\Contacto;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
@@ -12,10 +13,11 @@ class AdministradorController extends Controller
     public function index(Request $request)
     {                
         $cursos = Curso::all();
+        $contactos = Contacto::all();
         foreach($cursos as $curso){
             $curso->uri_miniatura = !empty($curso->uri_miniatura) && file_exists(public_path('assets/img/').$curso->uri_miniatura)?$curso->uri_miniatura:"dummies/browser.png";            
         }
-        return view('administrador.index',['cursos'=> $cursos]);     	  
+        return view('administrador.index',['cursos'=> $cursos,'contactos'=>$contactos]);     	  
     }
 
     public function curso(Request $request,$id=null){
@@ -30,9 +32,6 @@ class AdministradorController extends Controller
                 $tema->uri_miniatura = !empty($tema->uri_miniatura) && file_exists(public_path('assets/img/').$tema->uri_miniatura)?$tema->uri_miniatura:"dummies/browser.png";                
             }
         }
-
-
-
         /*$tema = new TemasCurso();
         $tema->nombre = "El curso de alta";        
         $curso->temas->push($tema);
@@ -44,7 +43,21 @@ class AdministradorController extends Controller
         dump($curso);        
         die();        */
         return view('administrador.curso',['curso'=>$curso]);
+    }
 
+    public function cursodel(Request $request,$id){
+        if($id>0){
+            try{
+                $curso =  Curso::find($id);
+                $curso->delete();     
+                $status="Curso borrado";       
+            }catch(Exception $ex){
+                $status="Ocurrio un error al eliminar el curso"; 
+            }            
+        }else{
+            $status="Ocurrio un error al eliminar el curso"; 
+        }
+        return redirect('/admin')->with(compact('status'));
     }
 
     public function cursoform(Request $request,$idcurso){                        

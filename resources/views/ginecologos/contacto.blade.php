@@ -12,6 +12,9 @@
                             <p>
                                Aquí puedes contactarnos para mas información.
                             </p>
+                            @if (session('status'))
+                                <p><i class="icon-warning-sign"></i>{{session('status')}}</p>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -68,6 +71,16 @@
 
                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                         <div id="errormessage"></div>
+                        @if ($errors->any())
+                                <br><br>
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                        @endif
 
                         {!! Form::open(['route' => 'contacto', 'method' => 'post']) !!}
                         <div class="form-group">
