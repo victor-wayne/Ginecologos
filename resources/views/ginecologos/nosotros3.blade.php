@@ -189,7 +189,7 @@
 <div class="row">
     <div class="span12">
       <div class="divider">
-          <h4>¿Quienes Somos?</h4>
+          <h4>¿Quiénes Somos?</h4>
       </div>
     </div>
 </div>
@@ -205,7 +205,7 @@
     <div class="span4 well" style="float:left;">
         <div class="centered">
             <i class="icon-circled icon-64 icon-suitcase active"></i>
-            <h4>Mision</h4>
+            <h4>Misión</h4>
             <div class="dotted_line">
             </div>              
           </div>
@@ -257,7 +257,7 @@
     <div class="span4 well" style="float:left;">
         <div class="centered">
             <i class="icon-circled icon-64 icon-leaf active"></i>
-            <h4>Vision</h4>
+            <h4>Visión</h4>
             <div class="dotted_line">
             </div>              
           </div>
@@ -272,7 +272,7 @@
 <div class="row">
   <div class="span12">
     <div class="divider">    
-      <h4>Galeria</h4>      
+      <h4>Galería</h4>
     </div>
   </div>
 </div>

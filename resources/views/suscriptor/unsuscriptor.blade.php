@@ -53,6 +53,7 @@
                     <li>&nbsp;</li>
                     <li><span style="color: #239b56;"><strong>Precio: </strong></span> <span style="font-weight:bold;">$3000.00 MXN</span></li>
                     <li style="text-align: center;">
+
                         <a href="{{ url('/suscriptor/paypal/pay') }}">
                             <img src="assets/img/paypal_ic.png" alt="Paypal" width="70px" height="70px" />
                         </a>

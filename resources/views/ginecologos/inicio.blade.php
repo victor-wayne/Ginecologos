@@ -66,7 +66,7 @@
                            <br>
                            <h3 style="text-transform: capitalize;">#JuntosSomosMejores</h3>
                            <p>
-                              Desde 19XX hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
+                              Desde 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                            </p>
                            <a class="btn btn-success" href="#">Únete al Colegio</a>
                         </div>
@@ -100,7 +100,7 @@
             <div class="dotted_line">
             </div>
             <p class="left">
-               Pendiente info
+               Descarga aquí los formatos de consentimientos informados.
             </p>
             <a class="link" onclick="mostrarModal(4);">Ver más</a>
          </div>
@@ -122,7 +122,7 @@
             <p class="left">
                Conoce nuestras acciones sociales en pro de la Sociedad
             </p>
-            <a href="#">Ver más</a>
+            <a class="link" onclick="mostrarModal(2);">Ver más</a>
          </div>
       </div>
       <div class="row">
@@ -163,6 +163,8 @@
                     data-width="495"
                     data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906">
             </div>
+
+
 
 
 
