@@ -118,7 +118,7 @@
           <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Marcelo Alejandro de la Torre</span></h4>
           <div class="dotted_line">
           </div>   
-          <strong><span style="color:#53a575;">Vocal</span></strong>                
+          <strong><span style="color:#53a575;">Secretario</span></strong>
       </div>                                                    
     </div>
 

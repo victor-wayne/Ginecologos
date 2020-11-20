@@ -257,6 +257,21 @@
                                 ' Acceso a publicaciones electrónicas  </h1> </div> ' +
                                 '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/tesis.png') }}" + '" width="30px" alt="Latest Products Image">' +
                                 ' Actualización médica continua  </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Sesiones mensuales de actualización médica continua  </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Conferencias Femecog </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Obtención de Puntaje Anual para Recertificación por pertenecer a la Federación a\n' +
+                                'través de nuestro Colegio </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Asesoría legal  </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Costo preferente al inscribirse a UpToDate </h1> </div> ' +
+                                '<div class = "col-md-6 "><h1><img class="img-responsive" src="' + "{{ asset('assets/img/porcentaje.png') }}" + '" width="30px" alt="Latest Products Image">' +
+                                ' Costo de ingreso y anual preferencial en asociaciones internacionales como el\n' +
+                                'Colegio americano de ginecología y obstetricia (ACOG), FIGO, FLASOG, RCOG, etc. </h1> </div> ' +
+                                '<h2>¡Y muchos más! </>'+
                                 '</div>',
                             showCloseButton: true,
                             showCancelButton: false,
