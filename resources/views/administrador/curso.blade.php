@@ -96,6 +96,13 @@
                         </ul>
                     </div>
             @endif
+
+            @if (session('status'))
+              <div class="alert">                                    
+                <p>{{session('status')}}</p>
+              </div>                  
+            @endif
+
             <div class="dotted_line">
             </div>
             <div class="row-fluid" style="border: 0px solid red;">                

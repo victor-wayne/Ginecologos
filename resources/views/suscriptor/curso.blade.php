@@ -46,7 +46,7 @@
             <div class="span8" style="">
               <!-- start flexslider -->
               <div class="">
-                <iframe 
+                <!--<iframe 
                   id="video"
                   width="100%"     
                   height="400px"              
@@ -56,9 +56,9 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen
                   onload="frameLoaded()">
-                </iframe>
+                </iframe>-->
                 <!--video-->
-                <!--<video
+                <video
                   id="video"
                   class="video-js"
                   controls
@@ -66,12 +66,12 @@
                   poster=""    
                   width="100%"              
                 >                  
-                  <source src="#" type="video/webm" />
+                  <source src="#" type="video/mp4" />
                   <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that                    
                   </p>
-                </video>-->
+                </video>
               </div>
               <!-- end flexslider -->
               <div id="tdescripcion" style="border: 0px solid;overflow:hidden;overflow-wrap: break-word;padding:1%;">
@@ -94,20 +94,20 @@
 
 @section('custom_js')
 <script>
-modalLoading.show();
+//modalLoading.show();
 var obj=[];
+var player = videojs('video');
 @foreach ($curso->temas as $tema)   
   obj.push(
-    //JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{asset('assets/videos/'.$tema->uri_multimedia)}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
-    JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{'https://www.youtube.com/embed/'.$tema->uri_multimedia}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
+    JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{asset('assets/videos/'.$tema->uri_multimedia)}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{urldecode(str_replace('+',' ',urlencode ($tema->descripcion)))}}\"}")
+    //JSON.parse("{\"name\":\"{{$tema->nombre}}\",\"duracion\":\"{{$tema->duracion}}\",\"sources\":[{\"src\":\"{{'https://www.youtube.com/embed/'.$tema->uri_multimedia}}\",\"type\":\"video/mp4\"}],\"descripcion\":\"{{str_replace('+',' ',urlencode ($tema->descripcion))}}\"}")
   );
 @endforeach
   
-  $(document).ready(function(){  
-            
-    var player = videojs('video');
+  //$(document).ready(function(){  
+                
     player.playlist(obj);
-    //player.playlist.autoadvance(0);
+    player.playlist.autoadvance(0);        
     player.playlistUi();
     $(".video-dimensions").css({"width":"100%","height":"400px"});
 
@@ -115,7 +115,7 @@ var obj=[];
 
       var i= player.playlist.currentItem();
       var item = obj[i];
-
+      first_time=false;
       var nodo_titulo = document.createElement("h3");                
       var textnode_titulo = document.createTextNode(item.name);   
       nodo_titulo.style.fontWeight="bold";
@@ -135,19 +135,21 @@ var obj=[];
 
       //$( ".vjs-playlist-item" ).first().css( "color", "#53a575" );
 
-      $(".vjs-playlist-item").on("click",function(){          
+      $(".vjs-playlist-item").on("click",function(){                    
           modalLoading.show();
           $(".vjs-playlist-item").css({"color":"#fff"});
           $(this).css({"color":"#53a575"});
-          setTimeout(function(){ frameLoaded(); }, 5000);
+          var vid = document.getElementById("video_html5_api");
+          console.log(vid);
+          setTimeout(function(){ frameLoaded(); }, 2000);        
       });
 
-    });
-
-});
+    });    
+//});
 
 function frameLoaded(){
-  modalLoading.hidden();
+  if(modalLoading!=undefined || modalLoading!=null)
+    modalLoading.hidden();
 }
 
 </script>

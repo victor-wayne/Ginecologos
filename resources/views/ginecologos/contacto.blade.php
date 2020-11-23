@@ -85,15 +85,15 @@
                         {!! Form::open(['route' => 'contacto', 'method' => 'post']) !!}
                         <div class="form-group">
                             {!! Form::label('email', 'E-Mail') !!}
-                            {!! Form::email('email', null, ['class' => 'form-control' ]) !!}
+                            {!! Form::email('email', null, ['class' => 'form-control','maxlength'=>'64' ]) !!}
                         </div>
                         <div class="form-group">
                             {!! Form::label('body', 'Asunto') !!}
-                            {!! Form::text('body', null, ['class' => 'form-control' ]) !!}
+                            {!! Form::text('body', null, ['class' => 'form-control','maxlength'=>'30' ]) !!}
                         </div>
                         <div class="form-group">
                             {!! Form::label('message', 'Mensaje') !!}
-                            {!! Form::textarea('message', null, ['class' => 'form-control' ]) !!}
+                            {!! Form::textarea('message', null, ['class' => 'form-control','maxlength'=>'200' ]) !!}
                         </div>
                         <div class="form-group">
                             {!! Form::submit('Enviar', ['class' => 'btn btn-success ' ] ) !!}

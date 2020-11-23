@@ -47,7 +47,7 @@
             @endif
 
             @if (session('status'))
-              <div class="alert alert-danger">                                    
+              <div class="alert">                                    
                 <p><i class="icon-warning-sign"></i>{{session('status')}}</p>
               </div>                  
             @endif
@@ -83,10 +83,10 @@
                                  <i class="icon-32 icon-trash btn-danger" style="border-radius: 5px;"></i>
 
                               </a>
-                              <form id="delete-curso-form-{{$curso->id}}" action="{{url('/admin/curso/'.$curso->id)}}" method="POST" style="display: none;">
+                              <form id="delete-curso-form-{{$curso->id}}" action="{{route('cursodel', [$curso->id])}}" method="POST" style="display: none;">
                                 @csrf
                                 <input type="hidden" value="{{$curso->id}}" name="curso_id" />                                
-                              </form>                                                            
+                              </form>                                                      
                             </article>
                           </div>
                         </div>
