@@ -66,12 +66,8 @@
                     <li class="portfolio-item2" data-id="id-0" data-type="web">
                       <div class="centered">
                         <div class="thumbnail">
-                          <div class="image-wrapp">
-                            @if(file_exists(public_path().'\assets\img\\'.$curso->uri_miniatura))
-                              <img src="{{ asset('assets/img/'.$curso->uri_miniatura) }}" alt="Curso" style="width: 100%;height:170px;" />
-                            @else
-                              <img src="{{ asset('assets/img/dummies/work4.jpg') }}" alt="Curso" style="width: 100%;height:170px;" />
-                            @endif
+                          <div class="image-wrapp">                            
+                              <img src="{{ asset('assets/img/'.$curso->uri_miniatura) }}" alt="Curso" style="width: 100%;height:170px;" />                            
                             <article class="da-animate da-slideFromRight" style="display: block;">                                                          
                               <a href="#modal" role="button" data-toggle="modal" title="Editar"
                                  onclick="getForm('{{ url('/admin/curso/'.$curso->id.'/form/') }}');">
