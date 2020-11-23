@@ -198,7 +198,7 @@
                                 '<p align = "center" ><h4>Dr. Emmanuel Castro Almanza <br> </h4> <h1> Presidente </h1> </p>' +
                                 '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
                                 ' </div> <div class = "col-md-5" >' +
-                                '<p align = "center" ><h4>Dr. Jorge Dueñas Riaño <br> </h4> <h1> Secretrio </h1> </p>' +
+                                '<p align = "center" ><h4>Dr. Jorge Dueñas Riaño <br> </h4> <h1> Secretario </h1> </p>' +
                                 '<div class = "col-md-6 "><img class="icon-circledg icon-64" src="' + "{{asset('assets/img/doctor.png')}}" + '" width="435px" alt="Latest Products Image">' +
                                 ' </div> <div class = "col-md-5" >' +
                                 '<p align = "center" ><h4>Dr. Eduardo Mariano González Gállego <br> </h4> <h1> Tesorero </h1>  </p>' +
