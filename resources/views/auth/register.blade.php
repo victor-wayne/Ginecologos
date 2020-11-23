@@ -60,29 +60,30 @@
 
                         <div class="text-right" style="border:0px solid; margin-right:25%;">                                                                            
                             <span>Nombre:</span>
-                            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="off">
+                            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" 
+                            name="name" value="{{ old('name') }}" maxlength="30" required autocomplete="off">
                         </div>
 
                         <div class="text-right" style="border:0px solid; margin-right:25%;">
                             <span>Apellidos:</span>
-                            <input id="apellidos" type="text" class="form-control @error('apellidos') is-invalid @enderror" name="apellidos" value="{{ old('apellidos') }}" required autocomplete="off">
+                            <input id="apellidos" type="text" maxlength="30" class="form-control @error('apellidos') is-invalid @enderror" name="apellidos" value="{{ old('apellidos') }}" required autocomplete="off">
                         </div>
 
                         <div class="text-right" style="border:0px solid; margin-right:25%;">
                             <span>Dirección Consultorio:</span>
-                            <input id="direccion" type="text" class="form-control @error('direccion') is-invalid @enderror" name="direccion" value="{{ old('direccion') }}" required autocomplete="off">
+                            <input id="direccion" type="text" maxlength="100" class="form-control @error('direccion') is-invalid @enderror" name="direccion" value="{{ old('direccion') }}" required autocomplete="off">
                         </div>
 
                         <div class="text-right" style="border:0px solid; margin-right:25%;">
                             <span>Telefono:</span>
-                            <input id="telefono" type="text" class="form-control @error('telefono') is-invalid @enderror" name="telefono" value="{{ old('telefono') }}" required autocomplete="off">
+                            <input id="telefono" type="tel" pattern="[0-9]{10}" maxlength="10" class="form-control @error('telefono') is-invalid @enderror" name="telefono" value="{{ old('telefono') }}" required autocomplete="off">
                         </div>
     
                         
     
                         <div class="text-right" style="border:0px solid; margin-right:25%;">                                                                            
                             <span>Correo Electronico:</span>
-                            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="off">
+                            <input id="email" maxlength="64" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="off">
                         </div>
     
                         

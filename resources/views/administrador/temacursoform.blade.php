@@ -1,27 +1,30 @@
-<form class="form-horizontal" method="POST" action="{{ route('savetema') }}" enctype="multipart/form-data">
+<form class="form-horizontal" method="POST" action="{{ route('savetema') }}" enctype="multipart/form-data" onsubmit="modalLoading.show();">
     @csrf
     <input type="hidden" name="id" value="{{$tema->id}}" />
     <input type="hidden" id="id-curso" name="curso_id" value="{{$curso->id}}" />
     <div class="control-group">
       <label class="control-label" for="inputNombre">Nombre:</label>
       <div class="controls">
-      <input class="input-xlarge" type="text" name="nombre" value="{{$tema->nombre}}" placeholder="Nombre del tema" required/>
+      <input class="input-xlarge" type="text" name="nombre" value="{{$tema->nombre}}" 
+      placeholder="Nombre del tema" maxlength="64" required/>
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="inputNombre">Autor:</label>
+      <label class="control-label" for="inputAutor">Autor:</label>
       <div class="controls">
-        <input class="input-xlarge" type="text" name="autor" value="{{$tema->autor}}" placeholder="Nombre del autor" required/>
+        <input class="input-xlarge" type="text" name="autor" value="{{$tema->autor}}" 
+        placeholder="Nombre del autor" maxlength="64" required/>
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="inputNombre">Duracion:</label>
+      <label class="control-label" for="inputDuracion">Duracion:</label>
       <div class="controls">
-        <input class="input-xlarge" type="text" name="duracion" value="{{$tema->duracion}}" placeholder="Duracion del video" required/>
+        <input class="input-xlarge" type="time" name="duracion" value="{{$tema->duracion}}" 
+        placeholder="Duracion del video" maxlength="6" required/>
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="inputPassword">Descripcion</label>
+      <label class="control-label" for="inputDescripcion">Descripcion</label>
       <div class="controls">
         <textarea class="input-xlarge" cols="50" rows="3" maxlength="200" style="align-content:left; overflow:auto;" name="descripcion" placeholder="Descripcion del curso" required>{{ltrim($tema->descripcion)}}</textarea>
       </div>
@@ -33,20 +36,21 @@
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="inputPortada">Video:</label>
+      <label class="control-label" for="inputVideo">Video:</label>
       <div class="controls">      
-        <input class="input-xlarge" type="text" name="uri_multimedia" value="{{$tema->uri_multimedia!='' ? 'https://youtu.be'.$tema->uri_multimedia:''}}" />      
+        <!--<input class="input-xlarge" type="text" name="uri_multimedia" value="{{$tema->uri_multimedia!='' ? 'https://youtu.be'.$tema->uri_multimedia:''}}" />-->
+        <input class="input-xlarge" type="file" name="uri_multimedia" value="{{$tema->uri_multimedia!='' ? 'https://youtu.be'.$tema->uri_multimedia:''}}" />      
       </div>
     </div>        
     <div class="control-group">
       <div class="controls">                  
-        <button type="submit" class="btn btn-success" onclick="modalLoading.show();">Guardar</button>
+        <button type="submit" class="btn btn-success" onclick="">Guardar</button>
       </div>
     </div>    
 </form>
 @if ($tema->id>0)
     <div class="centered">  
-      <iframe 
+      <!--<iframe 
       id="video"
       width="100%"     
       height="400px"              
@@ -56,10 +60,10 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen
       onload="frameLoaded()">
-    </iframe>                   
-        <!--<video width="500" controls>
+    </iframe>-->                   
+        <video width="500" controls>
           <source src="{{ asset('assets/videos/'.$tema->uri_multimedia) }}" type="video/mp4">    
               Your browser does not support HTML video.
-        </video>-->
+        </video>
       </div>             
 @endif

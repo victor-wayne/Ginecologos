@@ -32,9 +32,9 @@ class GinecologosController extends Controller
 
     public function contactop(Request $request){        
         $request->validate([
-            'email' => 'required|max:254|email',
-            'body' => 'required||max:254',
-            'message' => 'required|max:254',
+            'email' => 'required|max:100|email',
+            'body' => 'required||max:100',
+            'message' => 'required|max:250',
         ]);        
         
         $contacto = new Contacto();
