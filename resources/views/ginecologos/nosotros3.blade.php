@@ -167,10 +167,54 @@
             </div>              
           </div>
           <div style="height: 195px;">
-           
-                <br>Desde el año 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad. 
-                <br><strong><a href="#">#JuntosSomosMejores</a></strong>              
+             <p align="justify"> Desde el año 1984 el el Colegio de Ginecología y Obstetricia de Celaya Gto. A.C. ha sido un
+              espacio seguro donde se ha fomentado la educación médica continua de numerosos profesionistas
+              dedicados al cuidado de la salud de las mujeres Celayenses y de nuestra región. A lo largo de
+              sus años de existencia, nuestro Colegio se ha caracterizado por ser un grupo sólido de especialistas
+              ocupados en buscar la excelencia académica y profesional, lo cuál se demuestra no sólo a nivel
+              regional, sino a nivel nacional siendo hoy por hoy uno de los Colegios de mayor importancia para
+              la V región de nuestra Federación (FEMECOG).<br>
+              A lo largo de estos 36 años de existencia y gracias al trabajo conjunto de los agremiados,
+              se ha logrado un compromiso con la constante capacitación médica en pro de nuestras pacientes y
+              de la sociedad Celayense. Hoy, gracias al esfuerzo de cada una de las pasadas administraciones,
+              existe un alto nivel académico y científico en cada una de nuestras sesiones académicas.<br>
+              El consejo directivo 2020-2022 tiene la firme convicción de que el ser parte de esta agrupación,
+              va más allá de pagar una anualidad y asistir a las sesiones a lo largo del año; por esta razón
+              esperamos que nuestras actividades nos permitan además de un crecimiento cognitivo científico,
+              fortalecer las relaciones personales y profesionales entre los miembros al compartir experiencias,
+              ideas y oportunidades de crecimiento durante nuestras actividades y aún fuera de ellas porque
+                 estamos convencidos de que <strong><a href="#">#JuntosSomosMejores</a></strong>
+             </p>
+                <br>
+
+
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
     </div>
 </div>
 

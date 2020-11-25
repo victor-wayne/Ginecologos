@@ -25,10 +25,7 @@
                   </ul>
                 </div>
                 <!-- end flexslider -->
-                <p>El Colegio de Ginecologia y Obstetricia de Celaya, te da la mas coordial bienvenida<br>
 
-                  Suscribite al mejor contenido, con mas de 100 horas de video, mas de 50 manuales y cientos de tutoriales.
-                </p>
               </div>
               <div class="span4">
                 <div class="project-widget">

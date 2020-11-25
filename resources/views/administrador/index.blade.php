@@ -24,7 +24,7 @@
         <div class="span3 bs-docs-sidebar" style="background: #fff;">
             <ul class="nav nav-list bs-docs-sidenav">
                 <li><a href="#body-page" onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;" class="active"><i class="icon-bookmark-empty"></i>General</a></li>                
-                <li><a href="https://conferencias.cgocelaya.com/" target="_blank"><i class="icon-comment-alt"></i>Agregar Conferencía</a></li>
+                <li><a href="https://meet.jit.si/" target="_blank"><i class="icon-comment-alt"></i>Agregar Conferencía</a></li>
             </ul>
         </div>
       <div class="span9" style="background: #fff;">
