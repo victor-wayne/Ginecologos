@@ -142,8 +142,42 @@
       </div>
     </div>
 
+    <div class="span12 well" style="float:left;padding:1%;">
+        <div class="centered">
+            <i class="icon-circled icon-64 icon-leaf active"></i>
+            <h4><span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span></h4>
+            <div class="dotted_line">
+            </div>
+        </div>
+        <div>
+            <p align="justify"> Desde el año 1984 el el Colegio de Ginecología y Obstetricia de Celaya Gto. A.C. ha sido un
+                espacio seguro donde se ha fomentado la educación médica continua de numerosos profesionistas
+                dedicados al cuidado de la salud de las mujeres Celayenses y de nuestra región. A lo largo de
+                sus años de existencia, nuestro Colegio se ha caracterizado por ser un grupo sólido de especialistas
+                ocupados en buscar la excelencia académica y profesional, lo cuál se demuestra no sólo a nivel
+                regional, sino a nivel nacional siendo hoy por hoy uno de los Colegios de mayor importancia para
+                la V región de nuestra Federación (FEMECOG).<br>
+                A lo largo de estos 36 años de existencia y gracias al trabajo conjunto de los agremiados,
+                se ha logrado un compromiso con la constante capacitación médica en pro de nuestras pacientes y
+                de la sociedad Celayense. Hoy, gracias al esfuerzo de cada una de las pasadas administraciones,
+                existe un alto nivel académico y científico en cada una de nuestras sesiones académicas.<br>
+                El consejo directivo 2020-2022 tiene la firme convicción de que el ser parte de esta agrupación,
+                va más allá de pagar una anualidad y asistir a las sesiones a lo largo del año; por esta razón
+                esperamos que nuestras actividades nos permitan además de un crecimiento cognitivo científico,
+                fortalecer las relaciones personales y profesionales entre los miembros al compartir experiencias,
+                ideas y oportunidades de crecimiento durante nuestras actividades y aún fuera de ellas porque
+                estamos convencidos de que <strong><a href="#">#JuntosSomosMejores</a></strong>
+            </p>
+            <br>
+
+
+        </div>
+
+
+    </div>
+
 <div class="row-fluid" style="">
-    <div class="span8 well" style="float:left;padding:1%;">
+    <div class="span12 well" style="float:left;padding:1%;">
         
             <div style="width: 65%;float: left;">
                 <img src="{{ asset('assets/img/slides/nosotros/img4.jpg') }}" alt=""/>
@@ -159,63 +193,7 @@
             
         
     </div>
-    <div class="span4 well" style="float:left;padding:1%;">
-        <div class="centered">
-            <i class="icon-circled icon-64 icon-leaf active"></i>
-            <h4><span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span></h4>
-            <div class="dotted_line">
-            </div>              
-          </div>
-          <div style="height: 195px;">
-             <p align="justify"> Desde el año 1984 el el Colegio de Ginecología y Obstetricia de Celaya Gto. A.C. ha sido un
-              espacio seguro donde se ha fomentado la educación médica continua de numerosos profesionistas
-              dedicados al cuidado de la salud de las mujeres Celayenses y de nuestra región. A lo largo de
-              sus años de existencia, nuestro Colegio se ha caracterizado por ser un grupo sólido de especialistas
-              ocupados en buscar la excelencia académica y profesional, lo cuál se demuestra no sólo a nivel
-              regional, sino a nivel nacional siendo hoy por hoy uno de los Colegios de mayor importancia para
-              la V región de nuestra Federación (FEMECOG).<br>
-              A lo largo de estos 36 años de existencia y gracias al trabajo conjunto de los agremiados,
-              se ha logrado un compromiso con la constante capacitación médica en pro de nuestras pacientes y
-              de la sociedad Celayense. Hoy, gracias al esfuerzo de cada una de las pasadas administraciones,
-              existe un alto nivel académico y científico en cada una de nuestras sesiones académicas.<br>
-              El consejo directivo 2020-2022 tiene la firme convicción de que el ser parte de esta agrupación,
-              va más allá de pagar una anualidad y asistir a las sesiones a lo largo del año; por esta razón
-              esperamos que nuestras actividades nos permitan además de un crecimiento cognitivo científico,
-              fortalecer las relaciones personales y profesionales entre los miembros al compartir experiencias,
-              ideas y oportunidades de crecimiento durante nuestras actividades y aún fuera de ellas porque
-                 estamos convencidos de que <strong><a href="#">#JuntosSomosMejores</a></strong>
-             </p>
-                <br>
 
-
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-    </div>
 </div>
 
 
