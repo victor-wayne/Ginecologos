@@ -163,18 +163,16 @@
                     data-width="495"
                     data-href="https://www.facebook.com/ColegiodeGinecologiadeCelaya/posts/174305144306906">
             </div>
+         </div>
+      </div><hr>
 
+      <h2 align="center">Reconocimiento de la FEMECOG </h2><br>
+      <div class="row-fluid">
+         <div class="span12 well" style="float:left;padding:1%;">
 
-
-
-
-
-
-
-
-
-
-
+            <div style="width: 96%;float: right;">
+               <img src="{{ asset('assets/img/constancia.jpeg') }}" alt=""/>
+            </div>
          </div>
       </div>
    </div>
