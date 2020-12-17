@@ -61,7 +61,7 @@
                                         <a href="{{url('nosotros')}}">Nosotros</a>                                        
                                     </li>
                                     <li>
-                                        <a href="#">Eventos</a>                                        
+                                        <a href="{{ asset('assets/docs/estatutos.pdf') }}">Estatutos</a>
                                     </li>
                                     <li class="{{Request::is('blog') ? 'active':''}}">
                                         <a href="{{ route('blog') }}">Blog</a>
