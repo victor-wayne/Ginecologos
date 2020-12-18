@@ -224,12 +224,12 @@
                             width: '80%',
                             heightAuto: true,
                             html:'<div class="row">' +
-                                '<div class = "col-md-6 "><img class="img-responsive" src="' + "{{ asset('assets/img/mono.jpg') }}" + '" width="100%" alt="Latest Products Image">' +
+                                '<div class = "col-md-6 "><img class="img-responsive" src="' + "{{ asset('assets/img/mono.jpg') }}" + '" width="50%" alt="Latest Products Image">' +
                                 ' </div> <div class = "col-md-5" >' +
                                 '<a href="https://www.facebook.com/MonologosdelaV">Monólogos de la vaginita adolescente</a> <br> <br>'+
                                 '<p align = "justify" >Monólogos de la vaginita adolescente es una obra de teatro que busca guiar a los jóvenes hacia una sexualidad responsable. Funciones en toda la República. </p> <br>'+
                                 '<strong><h2>Accion Social 2 </h2></strong><br>'+
-                                '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FColegiodeGinecologiadeCelaya%2Fvideos%2F360701031955662%2F&show_text=0&width=560" width="100%" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><br><br>'+
+                                '<iframe width="100%" height="350px" src="https://www.youtube.com/embed/ZTuINUEKMgE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>'+
                                 '<p align = "justify">Como parte de los esfuerzos realizados en esta pandemia, donamos 300 cubrebocas de tela a la Jurisdicción Sanitaria No. 3 del Estado de Guanajuato. </p>' +
                                 '<strong><h2>Accion Social 3 </h2></strong><br>'+
                                 '<img class="img-responsive" src="' + "{{ asset('assets/img/gine2.jpg') }}" + '" width="100%" alt="Latest Products Image">'+
