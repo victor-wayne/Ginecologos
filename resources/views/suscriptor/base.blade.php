@@ -8,6 +8,8 @@
         <title>@yield('title')</title>
 
         <!-- styles -->
+       
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet">
         <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/bootstrap-responsive.css') }}" rel="stylesheet">
