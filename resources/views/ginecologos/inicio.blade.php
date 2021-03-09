@@ -136,8 +136,8 @@
                      </div>
                       <br>
                      <div class="btn-toolbar cta">
-                        <a class="btn btn-large btn-color" href="#">
-                           <i class="icon-calendar icon-white"></i> Próximos Eventos </a>
+                        <a class="btn btn-large btn-color" href="{{ asset('assets/img/evento.jpeg') }}">
+                           <i class="icon-calendar icon-white" ></i> Próximos Eventos </a>
 
                      </div>
                   </div>
