@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca40baa0-a849-4383-927f-518517d2abaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Suscriptor/PaymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Suscriptor/PaymentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ginecologos/afiliacion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ginecologos/afiliacion.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ginecologos/nosotros3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ginecologos/nosotros3.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/suscriptor/unsuscriptor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/suscriptor/unsuscriptor.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ca40baa0-a849-4383-927f-518517d2abaa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +264,7 @@
       <workItem from="1642020470562" duration="1209000" />
       <workItem from="1642102101366" duration="1653000" />
       <workItem from="1656957391486" duration="2027000" />
-      <workItem from="1658856523840" duration="269000" />
+      <workItem from="1658856523840" duration="1015000" />
     </task>
     <servers />
   </component>
