@@ -46,9 +46,9 @@
                           <li>Costo de ingreso y anual preferencial en asociaciones internacionales como elColegio americano de ginecología y obstetricia (ACOG), FIGO, FLASOG, RCOG,etc.</li>
                           <li>Y mucho más!</li>
                         </ul>
-                    </li>                    
+                    </li>
                     <li>&nbsp;</li>
-                    <li><span style="color: #239b56;"><strong>Precio: </strong></span> <span style="font-weight:bold;">$3000.00 MXN</span></li>
+                    <li><span style="color: #239b56;"><strong>Precio: </strong></span> <span style="font-weight:bold;">$3100.00 MXN</span></li>
                     <li style="text-align: center;">
 
                         <a href="{{ url('/suscriptor/paypal/pay') }}">

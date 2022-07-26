@@ -39,11 +39,11 @@ class PaymentController extends Controller
         $payer->setPaymentMethod('paypal');
 
         $amount = new Amount();
-        $amount->setTotal('3000');
+        $amount->setTotal('3100');
         $amount->setCurrency('MXN');
 
         $transaction = new Transaction();
-        $transaction->setAmount($amount);        
+        $transaction->setAmount($amount);
 
         $callbackUrl = url('/suscriptor/paypal/status');
 
@@ -72,7 +72,7 @@ class PaymentController extends Controller
         $paymentId = $request->input('paymentId');
         $payerId = $request->input('PayerID');
         $token = $request->input('token');
-        
+
 
         if (!$paymentId || !$payerId || !$token) {
             $status = 'Lo sentimos! El pago a través de PayPal no se pudo procesar.';
@@ -87,17 +87,17 @@ class PaymentController extends Controller
         /** Execute the payment **/
         $result = $payment->execute($execution, $this->apiContext);
 
-        if ($result->getState() === 'approved') {        
+        if ($result->getState() === 'approved') {
             $transaction_id=$result->getTransactions()[0]->getRelatedResources()[0]->getSale()->getId();
-            $transaction_status = $result->getState();            
-            $status = 'Gracias! El pago a través de PayPal se ha ralizado correctamente.';                        
-            $user = Auth::user();   
-            $user->transaction_id=$transaction_id;  
-            $user->transaction_status=$transaction_status; 
-            $user->save();            
+            $transaction_status = $result->getState();
+            $status = 'Gracias! El pago a través de PayPal se ha ralizado correctamente.';
+            $user = Auth::user();
+            $user->transaction_id=$transaction_id;
+            $user->transaction_status=$transaction_status;
+            $user->save();
             return redirect('/suscriptor')->with(compact('status'));
         }
-        
+
         $status = 'Lo sentimos! El pago a través de PayPal no se pudo procesar.';
         return redirect('/suscriptor')->with(compact('status'));
     }

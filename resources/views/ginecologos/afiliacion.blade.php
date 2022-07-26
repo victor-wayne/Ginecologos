@@ -63,9 +63,9 @@
                             <!-- end flexslider -->
                             <p>
                                 <span style="color:#bc7475;font-weight:bold; ">Colegio de Ginecología y Obstetricia de Celaya</span><br>
-                                <br>Desde el año 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad. 
+                                <br>Desde el año 1984 hemos formado un grupo de médicos enfocados en la actualización y el conocimiento científico para brindar atención médica de calidad.
                                 <br><strong><a href="#">#JuntosSomosMejores</a></strong>
-                            </p>                        
+                            </p>
                         </div>
                         <div class="span4">
                             <div class="project-widget">
@@ -73,19 +73,19 @@
                             <ul class="project-detail">
                                 <li><label>Tipo Plan :</label> Premium </li>
                                 <li><label>Beneficios :</label> Acceso a contenido exclusivo</li>
-                                <li><label>Precio :</label> <span style="color:#239b56;"><strong>$999.99 MXN</strong></span> !Por tiempo limitado¡</li>                    
+                                <li><label>Precio :</label> <span style="color:#239b56;"><strong>$3,100.00 MXN</strong></span> !Por tiempo limitado¡</li>
                                 <li class="text-center">
-                                <a href="{{ url('/paypal/pay') }}"><img src="assets/img/paypal.png" alt="Pago" width="96px" /></a> 
+                                <a href="{{ url('/paypal/pay') }}"><img src="assets/img/paypal.png" alt="Pago" width="96px" /></a>
                                 </li>
 
                             </ul>
                             </div>
                         </div>
                     </div>
-                </article>          
-            </div>    
+                </article>
+            </div>
         </div><!--end row-->
-        
+
         <div class="row">
             <div class="span12">
                 <h4>Contenido</h4><br>
@@ -107,11 +107,11 @@
                                 </ol>
                             </div>
                         </div>
-                    </div>                                        
+                    </div>
                 </div>
                 <!--end: Accordion -->
             </div>
-        </div> <!--end row-->  
+        </div> <!--end row-->
 
     </div>
 </section>

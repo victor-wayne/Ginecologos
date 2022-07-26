@@ -49,17 +49,17 @@
         <div class="row">
           <div class="span12">
             <div class="centered">
-              
+
             </div>
           </div>
         </div>
       </div>-->
     </div>
-</section> 
+</section>
 @endsection
 @section('seccion2')
 <div class="container">
-    
+
       <div class="row">
         <div class="span12">
           <div class="divider">
@@ -69,7 +69,7 @@
       </div>
       <div class="row">
         <div class="span12">
-          <div class="divider">              
+          <div class="divider">
           </div>
         </div>
       </div>
@@ -77,54 +77,54 @@
 
       <div class="span3 well" style="float:left;padding:1%;">
         <div class="centered">
-          
-        <img src="{{ asset('assets/img/directiva/d3.jpg') }}" style="width:150px;height:150px;border-radius: 50%;"/>
-        <hr>    
-        <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Emmanuel Castro Almanza</span></h4>
+
+        <img src="{{ asset('assets/img/directiva/d1.jpg') }}" style="width:150px;height:150px;border-radius: 50%;"/>
+        <hr>
+        <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Marcelo Alejandro de la Torre</span></h4>
             <div class="dotted_line">
-            </div> 
-            <strong><span style="color:#53a575;">Presidente</span></strong>             
-          </div>          
+            </div>
+            <strong><span style="color:#53a575;">Presidente</span></strong>
+          </div>
     </div>
 
     <div class="span3 well" style="float:left;padding:1%;">
       <div class="centered">
-        <img src="{{ asset('assets/img/directiva/d4.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
-        <hr>  
-        <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Jorge Dueñas<br>Riaño</span></h4>
+        <img src="{{ asset('assets/img/directiva/dra-virginia.jpeg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+        <hr>
+        <h4><span style="color:#bc7475;font-weight:bold; ">Dra. Virginia Medina <br>Jiménez</span></h4>
         <div class="dotted_line">
         </div>
-        <strong><span style="color:#53a575;">Secretario</span></strong>              
-      </div>                            
+        <strong><span style="color:#53a575;">Secretaria</span></strong>
+      </div>
     </div>
-      
-      
+
+
 
       <div class="span3 well" style="float:left;padding:1%;">
         <div class="centered">
-          <img src="{{ asset('assets/img/directiva/d2.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
-          <hr>  
-          <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Eduardo Mariano González</span></h4>
+          <img src="{{ asset('assets/img/directiva/dt.jpeg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+          <hr>
+          <h4><span style="color:#bc7475;font-weight:bold; ">Dr.Francisco José armada Obeso</span></h4>
           <div class="dotted_line">
-          </div> 
-          <strong><span style="color:#53a575;">Tesorero</span></strong>             
-        </div>          
+          </div>
+          <strong><span style="color:#53a575;">Tesorero</span></strong>
+        </div>
       </div>
 
     <div class="span3 well" style="float:left;padding:1%;">
       <div class="centered">
-          <img src="{{ asset('assets/img/directiva/d1.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
+          <img src="{{ asset('assets/img/directiva/d2.jpg') }}" style="width:150px;height:150px;border-radius: 50%;" />
           <hr>
-          <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Marcelo Alejandro de la Torre</span></h4>
+          <h4><span style="color:#bc7475;font-weight:bold; ">Dr. Eduardo Mariano González</span></h4>
           <div class="dotted_line">
-          </div>   
+          </div>
           <strong><span style="color:#53a575;">Vicepresidente</span></strong>
-      </div>                                                    
+      </div>
     </div>
 
-      
 
-    
+
+
 
   </div>
 
@@ -137,7 +137,7 @@
     </div>
     <div class="row">
       <div class="span12">
-        <div class="divider">              
+        <div class="divider">
         </div>
       </div>
     </div>
@@ -178,20 +178,20 @@
 
 <div class="row-fluid" style="">
     <div class="span12 well" style="float:left;padding:1%;">
-        
+
             <div style="width: 65%;float: left;">
                 <img src="{{ asset('assets/img/slides/nosotros/img4.jpg') }}" alt=""/>
             </div>
-            
-            
+
+
             <div style="width: 32%;float: left;margin-left:1%;;margin-bottom:1%;">
                     <img src="{{ asset('assets/img/slides/nosotros/img1.jpg') }}" alt=""/>
             </div>
             <div style="width: 32%;float: left;margin-left:1%;">
                 <img src="{{ asset('assets/img/slides/nosotros/img10.jpg') }}" alt="" />
             </div>
-            
-        
+
+
     </div>
 
 </div>
@@ -217,7 +217,7 @@
 </div>
 <div class="row">
   <div class="span12">
-    <div class="divider">              
+    <div class="divider">
     </div>
   </div>
 </div>
@@ -229,12 +229,12 @@
             <i class="icon-circled icon-64 icon-suitcase active"></i>
             <h4>Misión</h4>
             <div class="dotted_line">
-            </div>              
+            </div>
           </div>
           <div style="height: 220px;">
             <span style="text-align: left;">
               Fomentar la educación continua de los médicos Gineco-Obstetras de Celaya, así como promover actividades en favor de la salud de la mujer.
-            </span>              
+            </span>
         </div>
     </div>
 
@@ -242,16 +242,16 @@
         <div style="width: 65%;float: left;">
             <img src="{{ asset('assets/img/slides/nosotros/img2.jpg') }}" alt=""/>
         </div>
-        
-        
+
+
         <div style="width: 32%;float: left;margin-left:1%;;margin-bottom:1%;">
                 <img src="{{ asset('assets/img/slides/nosotros/img3.jpg') }}" alt=""/>
         </div>
         <div style="width: 32%;float: left;margin-left:1%;">
             <img src="{{ asset('assets/img/slides/nosotros/img5.jpg') }}" alt="" />
-        </div>            
+        </div>
     </div>
-    
+
 </div>
 
 <div class="row">
@@ -264,43 +264,43 @@
 
 <div class="row">
     <div class="span12">
-      <div class="divider">          
+      <div class="divider">
       </div>
     </div>
 </div>
 
 <div class="row-fluid">
     <div class="span8 well" style="float:left;padding:1%;">
-        
+
             <div style="width: 96%;float: left;">
                 <img src="{{ asset('assets/img/slides/nosotros/img9.jpg') }}" alt=""/>
-            </div>                                                       
+            </div>
     </div>
     <div class="span4 well" style="float:left;">
         <div class="centered">
             <i class="icon-circled icon-64 icon-leaf active"></i>
             <h4>Visión</h4>
             <div class="dotted_line">
-            </div>              
+            </div>
           </div>
           <div style="height: 220px;">
             <span class="text-justify" style="text-align: left;">
               Ser una institución que se caracterice por su innovación, ética y que promueva la excelencia en el ejercicio profesional de sus miembros para contribuir a la sociedad.
-            </span>              
+            </span>
         </div>
     </div>
 </div>
 
 <div class="row">
   <div class="span12">
-    <div class="divider">    
+    <div class="divider">
       <h4>Galería</h4>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="span12">
-    <div class="divider">              
+    <div class="divider">
     </div>
   </div>
 </div>
@@ -313,15 +313,15 @@
           <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
       </div>
       <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-          
-          @foreach ($galeria as $img)                        
-          <div>                        
+
+          @foreach ($galeria as $img)
+          <div>
             <img data-u="image" src="{{ asset('assets/img/galeria/'.$img)}}" />
             <img data-u="thumb" src="{{asset('assets/img/galeria/'.$img)}}" />
           </div>
           @endforeach
-        
-          
+
+
       </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web animation</a>
       <!-- Thumbnail Navigator -->
       <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
@@ -351,7 +351,7 @@
               <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
           </svg>
       </div>
-  </div>                                                                
+  </div>
   </div>
 </div>
 </div>

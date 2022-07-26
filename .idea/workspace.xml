@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ca40baa0-a849-4383-927f-518517d2abaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Suscriptor/PaymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Suscriptor/PaymentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ginecologos/afiliacion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ginecologos/afiliacion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ginecologos/nosotros3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ginecologos/nosotros3.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/suscriptor/unsuscriptor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/suscriptor/unsuscriptor.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/directiva" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -210,14 +216,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/img/directiva" />
       <recent name="$PROJECT_DIR$/public/assets/docs" />
       <recent name="$PROJECT_DIR$/public/assets/img" />
       <recent name="$PROJECT_DIR$/public/assets/ico" />
       <recent name="$PROJECT_DIR$/public/assets/img/slides/sequence" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/img/directiva" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
@@ -262,7 +269,10 @@
       <workItem from="1639589834140" duration="5580000" />
       <workItem from="1639606274891" duration="4188000" />
       <workItem from="1639771740730" duration="829000" />
-      <workItem from="1642020470562" duration="1061000" />
+      <workItem from="1642020470562" duration="1209000" />
+      <workItem from="1642102101366" duration="1653000" />
+      <workItem from="1656957391486" duration="2027000" />
+      <workItem from="1658856523840" duration="269000" />
     </task>
     <servers />
   </component>
